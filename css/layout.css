@@ -1,11 +1,47 @@
 @font-face {
     font-family: "ProximaNovaRegular";
-    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
-    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
-	    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
-	    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    src: url("../fonts/ProximaNovaRegular.eot");
+    src: url("../fonts/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+	    url("../fonts/ProximaNovaRegular.woff") format("woff"),
+	    url("../fonts/ProximaNovaRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
+}
+@font-face {
+    font-family: 'latoheavy_italic';
+    src: url('../fonts/lato-heavyitalic-webfont.eot');
+    src: url('../fonts/lato-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-heavyitalic-webfont.woff2') format('woff2'),
+         url('../fonts/lato-heavyitalic-webfont.woff') format('woff'),
+         url('../fonts/lato-heavyitalic-webfont.ttf') format('truetype'),
+         url('../fonts/lato-heavyitalic-webfont.svg#latoheavy_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latosemibold';
+    src: url('../fonts/lato-semibold-webfont.eot');
+    src: url('../fonts/lato-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-semibold-webfont.woff') format('woff'),
+         url('../fonts/lato-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/lato-semibold-webfont.svg#latosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latosemibold_italic';
+    src: url('../fonts/lato-semibolditalic-webfont.eot');
+    src: url('../fonts/lato-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-semibolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/lato-semibolditalic-webfont.woff') format('woff'),
+         url('../fonts/lato-semibolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/lato-semibolditalic-webfont.svg#latosemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
     font-family: 'elektra_text_probold';
@@ -21,19 +57,19 @@
 }
 @font-face {
     font-family: "ProximaNovaBold";
-    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
-    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
-		url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
-		url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    src: url("../fonts/ProximaNovaBold.eot");
+    src: url("../fonts/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/ProximaNovaBold.woff") format("woff"),
+		url("../fonts/ProximaNovaBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "ProximaNovaBlack";
-    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
-    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
-	    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
-	    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
+    src: url("../fonts/ProximaNovaBlack.eot");
+    src: url("../fonts/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
+	    url("../fonts/ProximaNovaBlack.woff") format("woff"),
+	    url("../fonts/ProximaNovaBlack.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -48,12 +84,12 @@
 }
 @font-face {
     font-family: 'proxima_nova_excn_rgregular';
-    src: url('../fonts/proximanovaexcn-regular-webfont.eot');
-    src: url('../fonts/proximanovaexcn-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/proximanovaexcn-regular-webfont.woff2') format('woff2'),
-         url('../fonts/proximanovaexcn-regular-webfont.woff') format('woff'),
-         url('../fonts/proximanovaexcn-regular-webfont.ttf') format('truetype'),
-         url('../fonts/proximanovaexcn-regular-webfont.svg#proxima_nova_excn_rgregular') format('svg');
+    src: url('../fonts/ProximaNovaExCn-Reg.eot');
+    src: url('../fonts/ProximaNovaExCn-Reg.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNovaExCn-Reg.woff2') format('woff2'),
+         url('../fonts/ProximaNovaExCn-Reg.woff') format('woff'),
+         url('../fonts/ProximaNovaExCn-Reg.ttf') format('truetype'),
+         url('../fonts/ProximaNovaExCn-Reg.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -79,10 +115,10 @@
 }
 @font-face {
     font-family: "PTSansRegular";
-    src: url("../fonts/PTSansRegular/PTSansRegular.eot");
-    src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
-	    url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"),
-	    url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+    src: url("../fonts/PTSansRegular.eot");
+    src: url("../fonts/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+	    url("../fonts/PTSansRegular.woff") format("woff"),
+	    url("../fonts/PTSansRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -97,14 +133,48 @@
 }
 @font-face {
     font-family: "PTSansBold";
-    src: url("../fonts/PTSansBold/PTSansBold.eot");
-    src: url("../fonts/PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"),
-	    url("../fonts/PTSansBold/PTSansBold.woff") format("woff"),
-	    url("../fonts/PTSansBold/PTSansBold.ttf") format("truetype");
+    src: url("../fonts/PTSansBold.eot");
+    src: url("../fonts/PTSansBold.eot?#iefix")format("embedded-opentype"),
+	    url("../fonts/PTSansBold.woff") format("woff"),
+	    url("../fonts/PTSansBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.eot');
+    src: url('../fonts/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff'),
+         url('../fonts/lato-bold-webfont.ttf') format('truetype'),
+         url('../fonts/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/lato-black-webfont.eot');
+    src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/lato-black-webfont.woff') format('woff'),
+         url('../fonts/lato-black-webfont.ttf') format('truetype'),
+         url('../fonts/lato-black-webfont.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 html,
 body {
 	position: relative;
@@ -119,6 +189,9 @@ body {
 a{
 	text-decoration: none;
 	color: #472275;
+}
+b, a{
+	font-weight: 500;
 }
 li{
 	list-style: none;
@@ -193,16 +266,301 @@ input:-moz-placeholder {
 	font-family: "Lato";
 	font-weight: 500;
 }
+.rounded{
+	border-radius: 125px;
+}
+.rectangle{
+	border-radius: 5px;
+	padding: 15px 21px;
+}
 .b-orange-butt{
-
+	color: #FFF;
+	font-family: "ProximaNovaBold";
+	font-size: 17px;
+	text-shadow: 0 -1px 0 rgba(191, 98, 66, 0.8);
+	border: none;
+	box-shadow: 0 1px 2px rgba(102, 101, 101, 0.74), inset 0 -1px 2px #CC3501;
+	border: none;
+	cursor: pointer;
+	background: #ff8916; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff8916 0%, #d54f0a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8916), color-stop(100%,#d54f0a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff8916 0%,#d54f0a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff8916 0%,#d54f0a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff8916 0%,#d54f0a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff8916 0%,#d54f0a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8916', endColorstr='#d54f0a',GradientType=0 ); /* IE6-9 */
 }
 	.b-orange-butt:hover{
 		
 	}
-.b-1{
-	
+.b-0{
+	background-image: url("../i/green-pattern.jpg");
+	border-top: 1px solid #7D9E09;
+	border-bottom: 1px solid #7D9E09;
 }
-	
+	.b-0 .b-block{
+
+	}
+		.b-0 .cabinet{
+
+		}
+			.b-0 .cabinet ul{
+				margin: 7px 0px;
+			}
+				.b-0 .cabinet ul li{
+
+				}
+					.b-0 .cabinet ul li a{
+						color: #050505;
+						display: block;
+						font-family: "PTSansRegular";
+						font-size: 13px;
+						padding: 2px 11px;
+					}
+						.b-0 .cabinet ul li:first-child a{
+							padding-right: 0px;
+							border-left: 1px solid #7D9E09;
+						}
+						.b-0 .cabinet ul li a:hover{
+							text-decoration: underline;
+						}
+		.b-0 .percent{
+			margin-top: 9px;
+			margin-right: 60px;
+		}
+			.b-0 .percent a{
+				color: #FFF;
+				font-family: "ProximaNovaBold";
+				font-size: 13px;
+				border-bottom: 1px dashed #FFF;
+				margin-left: 9px;
+			}
+				.b-0 .percent a:hover{
+					border-bottom: none;
+				}
+			.b-0 .percent img{
+
+			}
+.b-1{
+	background-image: url("../i/back-1.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+	.b-1 .header{
+		background-color: rgba(113, 48, 13, 0.5);
+		height: 101px;
+	}
+		.b-1 .header .b-block{
+
+		}
+			.b-1 .header .logo{
+				width: 198px;
+				height: 110px;
+				background-color: #FCFCFC;
+				border: 1px solid rgba(0, 0, 0, 0.07);
+				border-radius: 0px 0px 5px 5px;
+				display: block;
+			}
+				.b-1 .header .logo h3{
+					color: #4C4C4C;
+					font-family: "PTSansBold";
+					font-size: 16px;
+					display: inline-block;
+					width: 133px;
+					margin-top: 20px;
+					line-height: 17px;
+					margin-bottom: 10px;
+				}
+				.b-1 .header .logo img{
+					display: inline-block;
+				}
+			.b-1 .header ul{
+				margin-top: 18px;
+				margin-left: 1px;
+			}
+				.b-1 .header ul li{
+
+				}
+					.b-1 .header ul li:hover .text p{
+						color: #A0E826;
+					}
+					.b-1 .header ul li .pict{
+						background-image: url("../i/b-1/1.png");
+						/*min-width: 110px;*/
+						height: 33px;
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						margin-bottom: 5px;
+					}
+						.b-1 .header ul li:nth-child(2) .pict{
+							background-image: url("../i/b-1/2.png");
+						}
+						.b-1 .header ul li:nth-child(3) .pict{
+							background-image: url("../i/b-1/3.png");
+						}
+						.b-1 .header ul li:nth-child(4) .pict{
+							background-image: url("../i/b-1/4.png");
+						}
+						.b-1 .header ul li:nth-child(5) .pict{
+							background-image: url("../i/b-1/5.png");
+						}
+					.b-1 .header ul li .text{
+
+					}
+						.b-1 .header ul li .text p{
+							color: #FFF;
+							font-family: "proxima_nova_excn_rgregular";
+							font-size: 17px;
+							text-transform: uppercase;
+							padding: 8px 26px;
+							border-right: 1px solid rgba(31, 29, 30, 0.3);
+						}
+			.b-1 .header .back-call{
+				text-align: center;
+				margin-top: 23px;
+			}
+				.b-1 .header .back-call h3{
+					color: #FFF;
+					font-family: "ProximaNovaBold";
+					font-size: 14px;
+					margin-right: 9px;
+				}
+				.b-1 .header .back-call h4{
+					color:	rgba(255, 255, 255, 0.7);
+					font-family: "ProximaNovaRegular";
+					font-size: 14px;
+					margin-right: 9px;
+					margin-bottom: 2px;
+				}
+				.b-1 .header .back-call p{
+					font-family: "elektra_text_probold";
+					text-transform: uppercase;
+					color: #FFF;
+					font-size: 25px;
+				}
+					.b-1 .header .back-call p span{
+						color: #5B2C05;
+						font-size: 16px;
+						position: relative;
+						top: -4px;
+					}
+			.b-1 > .b-block{
+				margin-top: 25px;
+			}
+				.b-1 > .b-block h2{
+					color: #4D3420;
+					font-family: "latoblack";
+					font-size: 40px;
+					width: 825px;
+					display: inline-block;
+					line-height: 45px;
+				}
+				.b-1 > .b-block .title{
+					position: relative;
+					display: inline-block;
+					margin-top: 26px;
+				}
+					.b-1 > .b-block .title h3{
+						color: #505050;
+						font-family: "latobold";
+						font-size: 16px;
+					}
+					.b-1 > .b-block .title img{
+						position: absolute;
+						bottom: -8px;
+						right: -34px;
+					}
+				.b-1 > .b-block .content{
+
+				}
+					.b-1 > .b-block .content .circle{
+						border-radius: 50%;
+						width: 392px;
+						height: 392px;
+						background-color: rgba(255, 255, 255, 0.7);
+						border: 1px solid rgba(176, 146, 129, 0.7);
+						margin-left: 67px;
+						margin-top: 13px;
+						margin-bottom: 11px;
+					}
+					.b-1 > .b-block .content .green-block{
+						background-image: url("../i/green-pattern.jpg");
+						border-radius: 5px;
+						width: 343px;
+						margin-right: 68px;
+						margin-top: 39px;
+					}
+						.b-1 > .b-block .content .green-block h2{
+							color: #FFF;
+							font-family: "ProximaNovaBlack";
+							font-size: 20px;
+							text-transform: uppercase;
+							width: 305px;
+							padding: 0px 19px;
+							margin-top: 17px;
+							line-height: 27px;
+						}
+						.b-1 > .b-block .content .green-block h3{
+							color: #222;
+							font-family: "ProximaNovaRegular";
+							font-size: 14px;
+							width: 208px;
+							display: inline-block;
+							margin-top: 9px;
+							line-height: 16px;
+							margin-bottom: 13px;
+						}
+							.b-1 > .b-block .content .green-block h3 b{
+								font-family: "ProximaNovaBold";
+							}
+							.b-1 > .b-block .content .green-block form{
+
+							}
+								.b-1 > .b-block .content .green-block form label{
+									color: #FFF;
+									font-family: "ProximaNovaBold";
+									font-size: 15px;
+								}
+								.b-1 > .b-block .content .green-block form> div{
+									display: inline-block;
+									margin-top: 12px;
+								}
+								.b-1 > .b-block .content .green-block form .phone-img{
+									width: 40px;
+									height: 40px;
+									background-color: #FFF;
+									background-repeat: no-repeat;
+									background-position: 50% 50%;
+									border-radius: 5px 0px 0px 5px;
+									background-image: url('../i/phone.png');
+									border: 1px solid rgba(168, 168, 168, 0.5);
+								}
+								.b-1 > .b-block .content .green-block form input{
+									border: 1px solid rgba(168, 168, 168, 0.5);
+									height: 40px;
+									width: 229px;
+									border-radius: 0px 5px 5px 0px;
+									padding-left: 10px;
+									margin-bottom: 17px;
+								}
+								.b-1 > .b-block .content .green-block form button{
+
+								}
+						.b-1 > .b-block .content .green-block p{
+							color: #000;
+							font-family: "ProximaNovaRegular";
+							font-size: 14px;
+							margin-top: 19px;
+							margin-bottom: 22px;
+						}
+							.b-1 > .b-block .content .green-block p span{
+								font-size: 15px;
+								font-family: "ProximaNovaBold";
+								background-color: #F6F6F6;
+								border: 1px solid #D8D8D8;
+							}
 @media screen and (max-width: 1250px){
 	
 }
