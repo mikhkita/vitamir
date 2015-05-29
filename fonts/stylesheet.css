@@ -3,45 +3,13 @@
 
 
 @font-face {
-    font-family: 'latoheavy_italic';
-    src: url('lato-heavyitalic-webfont.eot');
-    src: url('lato-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('lato-heavyitalic-webfont.woff2') format('woff2'),
-         url('lato-heavyitalic-webfont.woff') format('woff'),
-         url('lato-heavyitalic-webfont.ttf') format('truetype'),
-         url('lato-heavyitalic-webfont.svg#latoheavy_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'latosemibold';
-    src: url('lato-semibold-webfont.eot');
-    src: url('lato-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('lato-semibold-webfont.woff2') format('woff2'),
-         url('lato-semibold-webfont.woff') format('woff'),
-         url('lato-semibold-webfont.ttf') format('truetype'),
-         url('lato-semibold-webfont.svg#latosemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'latosemibold_italic';
-    src: url('lato-semibolditalic-webfont.eot');
-    src: url('lato-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('lato-semibolditalic-webfont.woff2') format('woff2'),
-         url('lato-semibolditalic-webfont.woff') format('woff'),
-         url('lato-semibolditalic-webfont.ttf') format('truetype'),
-         url('lato-semibolditalic-webfont.svg#latosemibold_italic') format('svg');
+    font-family: 'latoheavy';
+    src: url('lato-heavy-webfont.eot');
+    src: url('lato-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-heavy-webfont.woff2') format('woff2'),
+         url('lato-heavy-webfont.woff') format('woff'),
+         url('lato-heavy-webfont.ttf') format('truetype'),
+         url('lato-heavy-webfont.svg#latoheavy') format('svg');
     font-weight: normal;
     font-style: normal;
 
