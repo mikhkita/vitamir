@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Витамир</title>
 	<meta name="keywords" content=''>
 	<meta name="description" content=''>
 
@@ -20,6 +20,7 @@
 	<script type="text/javascript" src="js/jssor.js"></script>
 	<script type="text/javascript" src="js/jssor.slider.js"></script>
 	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript" src="js/swipe.js"></script>
 	<script type="text/javascript" src="js/carousel.lite.js"></script>
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
@@ -129,7 +130,7 @@
 							<label for="phone1">Введите Ваш телефон:</label>
 							<div class="clearfix">
 								<div class="left phone-img"></div>
-								<input class="left" type="text" id="phone1" name="phone" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ - _ _" required/>
+								<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
 							</div>
 							<button class="ajax b-orange-butt rectangle" type="submit">Получить программу питания!</button>		
 						</form>
@@ -193,6 +194,32 @@
 		<div class="b-block">
 			<h2>6-разовое питание</h2>
 		</div>
+		<div class="b-back">
+			<div class="b-block b-calc-cont">
+			
+			</div>
+			<div class="b-triangles">
+				<div class="b-block">
+					<div class="b-advantages clearfix">
+						<li>
+							<img src="i/b-3/1.png" alt="">
+							<h3>Вакуумная<br>упаковка</h3>
+							<p>Еда хранится 3-5 дней благодаря отсутствию воздуха</p>
+						</li>
+						<li>
+							<img src="i/b-3/2.png" alt="">
+							<h3>Свежее. Доставляем<br>в день приготовления</h3>
+							<p>Вся еда приготавливается ночью и хранится у нас не более суток</p>
+						</li>
+						<li>
+							<img src="i/b-3/3.png" alt="">
+							<h3>Вкусно. Разнообразная еда каждый день</h3>
+							<p>95 вариантов блюд!</p>
+						</li>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="b b-4">
 		<div class="b-block">
@@ -207,7 +234,7 @@
 					<form method="POST" action="kitsend.php" class="clearfix">
 						<div class="clearfix">
 							<div class="left phone-img"></div>
-							<input class="left" type="text" id="phone1" name="phone" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ - _ _" required/>
+							<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
 						</div>
 						<button class="ajax b-orange-butt rectangle" type="submit">Получить промокод</button>		
 					</form>
@@ -291,21 +318,20 @@
 	</div>
 	<div class="b b-8">
 		<div class="b-white"></div>
-		<div class="b-block">
-			<div class="info">
-				<h2>Контактная информация</h2>
-				<ul>
-					<li class="clearfix">
-						<div class="left"></div>
-						<p class="left">Ул. Здоровой Еды 50 дом 13, 21555</p>
-					</li>
-					<li class="clearfix">
-						<div class="left"></div>
-						<p class="left">+7 495 12 345 67</p>
-					</li>
-				</ul>
-				<a href="#">zdorovaya.eda@eda.ru</a>
-			</div>
+		<div class="b-map" id="map_canvas"></div>
+		<div class="info">
+			<h2>Контактная информация</h2>
+			<ul>
+				<li class="clearfix">
+					<div class="left"></div>
+					<p class="left">Ул. Здоровой Еды 50 дом 13, 21555</p>
+				</li>
+				<li class="clearfix">
+					<div class="left"></div>
+					<p class="left">+7 495 12 345 67</p>
+				</li>
+			</ul>
+			<a href="#">zdorovaya.eda@eda.ru</a>
 		</div>
 	</div>
 	<div class="b b-9">

@@ -9,22 +9,23 @@ function getNextField($form){
 var customHandlers = [];
 
 $(document).ready(function(){	
-	var rePhone = /^\+\d \(\d{3}\) \d{3}-\d{2}-\d{2}$/,
+	var rePhone = /^\+\d \(\d\d\d\) \d\d\d-\d\d-\d\d$/,
 		tePhone = '+7 (999) 999-99-99';
 
 	$.validator.addMethod('customPhone', function (value) {
 		return rePhone.test(value);
 	});
 
-	$(".ajax").parents("form").each(function(){
+	$(".ajax").parents("form").each(function(){     
 		$(this).validate({
+			validClass: "success",
 			rules: {
 				email: 'email',
 				phone: 'customPhone'
 			}
 		});
 		if( $(this).find("input[name=phone]").length ){
-			$(this).find("input[name=phone]").mask(tePhone,{placeholder:" "});
+			$(this).find("input[name=phone]").mask(tePhone,{placeholder:"_"});
 		}
 	});
 
@@ -43,6 +44,7 @@ $(document).ready(function(){
 		$this.fancybox({
 			padding : 0,
 			content : $popup,
+			openSpeed: 'fast',
 			helpers: {
 	         	overlay: {
 	            	locked: true 
@@ -63,7 +65,9 @@ $(document).ready(function(){
 					customHandlers[$this.attr("data-afterShow")]($this);
 				}
 			},
-			beforeClose: function(){
+			beforeClose: function(){ 
+				$("input.error").parent().removeClass("error");
+				$("input.error,textarea.error").removeClass("error");
 				if( $this.attr("data-beforeClose") && customHandlers[$this.attr("data-beforeClose")] ){
 					customHandlers[$this.attr("data-beforeClose")]($this);
 				}
@@ -88,9 +92,11 @@ $(document).ready(function(){
 	$(".fancy-img").fancybox({
 		padding : 0
 	});
-
+	
 	$(".ajax").parents("form").submit(function(){
-  		if( $(this).find("input.error,select.error,textarea.error").length == 0 ){
+		$("input.success").parent().removeClass("error");
+		$("input.error").parent().addClass("error");
+  		if( $(this).find("input.error").length == 0 ){
   			var $this = $(this),
   				$thanks = $($this.attr("data-block"));
 
@@ -103,9 +109,8 @@ $(document).ready(function(){
 			  	url: $(this).attr("action"),
 			  	data:  $this.serialize(),
 				success: function(msg){
-					var $form;
 					if( msg == "1" ){
-						$form = $thanks;
+						window.location.assign("/rody/thanks.html");
 					}else{
 						$form = $("#b-popup-error");
 					}
@@ -124,4 +129,5 @@ $(document).ready(function(){
   		}
   		return false;
   	});
+
 });
