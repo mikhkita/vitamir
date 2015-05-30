@@ -443,7 +443,7 @@ margin-bottom: 6px;
 			height: 40px;
 			width: 40px;
 		}
-		#b-popup-programm .b-popup form #phone1{
+		#b-popup-programm .b-popup form #phone-4{
 			width: 215px;
 			padding: 11px 12px;
 		}
@@ -508,7 +508,10 @@ margin-bottom: 6px;
 			margin-top: 6px;
 			border-right: 0px;
 		}
-		.b-popup form #phone1{
+		.b-popup form #phone-1,
+		.b-popup form #phone-3,
+		.b-popup form #phone-4,
+		.b-popup form #phone-5{
 			padding: 8px 12px 9px;
 			border: 1px solid rgba(168, 168, 168, 0.5);
 			width: 232px;
@@ -546,7 +549,7 @@ margin-bottom: 6px;
 			width: 38px;
 			height: 40px;
 		}
-		#b-popup-code .b-popup form #phone1{
+		#b-popup-code .b-popup form #phone-5{
 			padding: 11px 7px;
 		}
 .rounded{
