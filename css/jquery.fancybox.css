@@ -106,7 +106,7 @@
 	cursor: pointer;
 	width: 8px;
 	height: 8px;
-	background: url('close.png') center center no-repeat;
+	background: url('../i/close.png') center center no-repeat;
 }
 	z-index: 8040;
 }

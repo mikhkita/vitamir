@@ -244,13 +244,28 @@ label.error{
 	left: 50%;
 	margin-left: -585px;
 }
-.b-popup form input::-webkit-input-placeholder {
+/*.b-popup form input::-webkit-input-placeholder {
 	color: rgba(71,62, 66, 0.6);
     font-family: "latobold";
     font-size: 14px;
 }
 .b-popup form input:-moz-placeholder {
 	color: rgba(71,62, 66, 0.6);
+    font-family: "latobold";
+    font-size: 14px;
+}*/
+textarea{
+	height: 90px;
+	width: 278px;
+	text-align: left;
+	margin-bottom: 14px;
+	border-radius: 5px;
+	border: 1px solid rgba(156, 139, 145, 0.49);
+	resize: none;
+	margin-bottom: -3px;
+	padding: 10px 0px 0px 10px;
+	margin-top: 6px;
+ 	color: rgba(71, 62, 66, 0.6);
     font-family: "latobold";
     font-size: 14px;
 }
@@ -294,24 +309,30 @@ label.error{
 			margin-top: 6px;
 		}
 			.b-popup form .write{
-				height: 37px;
+				padding: 8px 10px;
 				text-align: center;
 				margin-bottom: 6px;
 			}
 			.b-popup form #name{
 				height: 100px;
 				text-align: left;
-				margin-bottom: 14px;
 			}
 		.b-popup form input[type="text"]{
-						border-radius: 5px;
+			border-radius: 5px;
 			border: 1px solid rgba(156, 139, 145, 0.49);
+		    color: rgba(71, 62, 66, 0.6);
+		    font-family: "latobold";
+		    font-size: 14px;
 		}
 		.b-popup form input[type="submit"]{
 			width: 238px;
 			height: 47px;
 			margin-bottom: 7px;
 			text-transform: uppercase;
+		    color: #FFF;
+		    font-family: "latoblack";
+		    font-size: 14px;
+		        text-shadow: 0 1px 0 rgba(1, 1, 1, 0.15);
 		}
 	.b-popup p{
 		font-family: "latoregular";
@@ -329,10 +350,19 @@ label.error{
 		height: 39px;
 	}
 	#b-popup-system .b-popup{
+
+	}
+	#b-popup-system .b-popup{
 		padding-bottom: 25px;
+		display: inline-block;
 	}
 	#b-popup-system .b-popup .sys{
 		margin-top: 22px;
+	}
+	#b-popup-system .b-popup h2{
+		font-size: 22px;
+		margin-top: 2px;
+margin-bottom: 6px;
 	}
 	#b-popup-system .b-popup h3{
 			width: 240px;
@@ -340,12 +370,19 @@ label.error{
 		#b-popup-system form{
 			text-align: left;
 			display: inline-block;
+			margin-top: 6px;
 		}
 		#b-popup-system label{
-			margin-left: 10px;
+			margin-left: 6px;
 		}
 		#b-popup-system input[type="text"]{
 			text-align: left;
+		}
+	#b-popup-question .b-popup h3{
+		width: 186px;
+	}
+		#b-popup-question .b-popup form{
+			margin-top: 6px;
 		}
 	#b-popup-registration{
 
@@ -356,19 +393,24 @@ label.error{
 		#b-popup-registration form{
 			text-align: left;
 			display: inline-block;
+			margin-top: 6px;
 		}
 		#b-popup-registration label{
-			margin-left: 10px;
+			margin-left: 6px;
 		}
 		#b-popup-registration input[type="text"]{
 			text-align: left;
 		}
 		#b-popup-registration .b-popup input[type="submit"]{
-			margin-top: 22px;
+			margin-top: 19px;
 		}
 		#b-popup-registration .b-popup h2{
 			font-size: 22px;
-	}
+			margin-bottom: 6px;
+		}
+		#b-popup-registration .b-popup h3{
+			
+		}
 	#b-popup-programm{
 	
 	}
@@ -384,6 +426,7 @@ label.error{
     		font-family: "ProximaNovaRegular";
     		font-size: 14px;
     		margin-top: 10px;
+    		margin-bottom: 30px;
 		}
 			#b-popup-programm p span{
 				font-size: 15px;
@@ -391,6 +434,20 @@ label.error{
 				background-color: #F6F6F6;
 				border: 1px solid #D8D8D8;
 			}
+		#b-popup-programm label{
+			margin-left: 5px;
+			display: block;
+			margin-top: 2px;
+			margin-bottom: 4px;
+		}
+		#b-popup-programm .b-popup form .phone-img{
+			height: 40px;
+			width: 40px;
+		}
+		#b-popup-programm .b-popup form #phone1{
+			width: 215px;
+			padding: 9px 12px;
+		}
 		#b-popup-programm form{
 			margin-top: 4px;
 		}
@@ -403,6 +460,8 @@ label.error{
 		#b-popup-programm .b-popup input[type="submit"]{
 			    width: 276px;
 			    font-size: 13px;
+			    margin-top: 2px;
+			    margin-bottom: 9px;
 		}
 	#b-popup-callback{
 
@@ -410,27 +469,37 @@ label.error{
 		#b-popup-callback .b-popup{
 			padding-bottom: 15px;
 		}
+		#b-popup-callback .b-popup h2{
+			padding-top: 23px;
+		}
 		#b-popup-callback .b-popup h3{
 			width: 300px;
 		}
 		#b-popup-callback .b-popup form{
 			text-align: left;
 			display: inline-block;
-			margin-top: 0px;
+			margin-top: 6px;
+		}
+		#b-popup-callback p{
+			margin-bottom: 7px;
 		}
 		#b-popup-callback label{
-			margin-left: 10px;
+			margin-left: 5px;
 		}
 		#b-popup-callback input[type="text"]{
 			text-align: left;
+		}
+		#b-popup-callback .b-popup form input[type="submit"]{
+			margin-bottom: 10px;
+			height: 49px;
 		}
 		.b-popup form> div{
 			display: inline-block;
 			margin-top: 12px;
 		}
 		.b-popup form .phone-img{
-			width: 40px;
-			height: 40px;
+			width: 35px;
+			height: 35px;
 			background-color: #FFF;
 			background-repeat: no-repeat;
 			background-position: 50% 50%;
@@ -442,7 +511,7 @@ label.error{
 		}
 		.b-popup form #phone1{
 			border: 1px solid rgba(168, 168, 168, 0.5);
-			height: 40px;
+			padding: 6.5px 12px;
 			width: 229px;
 			font-size: 15px;
 			border-radius: 0px 5px 5px 0px;
@@ -450,7 +519,7 @@ label.error{
 			margin-bottom: 17px;
 		}
 	#b-popup-code{
-		padding-bottom: 25px;
+		/*padding-bottom: 25px;*/
 	}
 		#b-popup-code h2{
 			width: 267px;
@@ -458,14 +527,28 @@ label.error{
 		}
 			#b-popup-code h2 span{
 				 color: #DD590C;
+				 margin-bottom: 5px;
 			}
 		#b-popup-code form{
-			text-align: left;
+		
 			display: inline-block;
-			margin-top: 0px;
+			margin-top: 7px;
 		}
 		#b-popup-code label{
-			margin-left: 10px;
+			margin-left: 6px;
+			margin-bottom: 5px;
+			display: block;
+		}
+		#b-popup-code .b-popup form input[type="submit"]{
+			margin-top: 8px;
+			margin-bottom: 32px;
+		}
+		#b-popup-code .b-popup form .phone-img{
+			width: 38px;
+			height: 40px;
+		}
+		#b-popup-code .b-popup form #phone1{
+			padding: 9px 7px;
 		}
 .rounded{
 	border-radius: 125px;
@@ -697,7 +780,6 @@ label.error{
 						border: 1px solid rgba(176, 146, 129, 0.7);
 						margin-left: 67px;
 						margin-top: 13px;
-						margin-bottom: 11px;
 					}
 					.b-1 > .b-block .content .green-block{
 						background-image: url("../i/green-pattern.jpg");
@@ -705,6 +787,7 @@ label.error{
 						width: 343px;
 						margin-right: 68px;
 						margin-top: 39px;
+						margin-bottom: 41px;
 					}
 						.b-1 > .b-block .content .green-block h2{
 							color: #FFF;
@@ -851,7 +934,7 @@ label.error{
 					content: ".";
 					font-size: 0px;
 					position: absolute;
-					height: 178px;
+					height: 100%;
 					width: 1000px;
 					top: 0px;
 					left: -999px;
@@ -861,7 +944,7 @@ label.error{
 					content: ".";
 					font-size: 0px;
 					position: absolute;
-					height: 171px;
+					height: 100%;
 					width: 1000px;
 					top: 0px;
 					right: -999px;
@@ -1182,7 +1265,7 @@ label.error{
 					top: 0px;
 					right: -999px;
 					width: 1000px;
-					height: 179.5px;
+					height: 100%;
 					background-color: #ebf4f1;
 				}
 				.b-6 .content .pay h2{
