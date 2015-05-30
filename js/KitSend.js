@@ -94,8 +94,8 @@ $(document).ready(function(){
 	});
 	
 	$(".ajax").parents("form").submit(function(){
-		$("input.success").parent().removeClass("error");
-		$("input.error").parent().addClass("error");
+		$("input[name='phone'].success").parent("div").removeClass("error");
+		$("input[name='phone'].error").parent("div").addClass("error");
   		if( $(this).find("input.error").length == 0 ){
   			var $this = $(this),
   				$thanks = $($this.attr("data-block"));
