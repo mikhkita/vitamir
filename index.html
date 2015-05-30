@@ -126,11 +126,11 @@
 				<div class="green-block right">
 					<h2>Получите персональную программу питания</h2>
 					<h3>Наши специалисты составят ее под <b>Ваши цели и особенности</b></h3>
-						<form method="POST" action="kitsend.php" class="clearfix">
-							<label for="phone1">Введите Ваш телефон:</label>
+						<form method="POST" action="kitsend.php" id="b-form-1" class="clearfix">
+							<label for="phone-1">Введите Ваш телефон:</label>
 							<div class="clearfix">
 								<div class="left phone-img"></div>
-								<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
+								<input class="left" type="text" id="phone-1" name="phone" placeholder="+7 (___) ___-__-__" required/>
 							</div>
 							<button class="ajax b-orange-butt rectangle" type="submit">Получить программу питания!</button>		
 						</form>
@@ -231,12 +231,12 @@
 				<div class="green-block left">
 					<h3>Получите Ваш промокод на скидку 5%</h3>
 					<h4>Введите свой номер телефона и получите персональный промокод на <b>5% скидку</b></h4>
-					<form method="POST" action="kitsend.php" class="clearfix">
+					<form method="POST" action="kitsend.php" id="b-form-2" class="clearfix">
 						<div class="clearfix">
 							<div class="left phone-img"></div>
-							<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
+							<input class="left" type="text" id="phone-2" name="phone" placeholder="+7 (___) ___-__-__" required/>
 						</div>
-						<button class="ajax b-orange-butt rectangle" type="submit">Получить промокод</button>		
+						<button class="ajax b-orange-butt rectangle" type="submit">Получить промокод</button>
 					</form>
 				</div>
 				<div class="cloud">
@@ -370,16 +370,14 @@
 				менеджеру
 				</h2>
 				<h3>В форме ниже, и мы ответим на него в течение 40 минут</h3>
-				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+				<form action="kitsend.php" method="POST" id="b-form-3" data-block="#b-popup-1">
 					<div class="b-popup-form">
-						<!-- <label for="name">Введите Ваше имя</label>
-						<input type="text" id="name" name="name" required/> -->
-						<label for="tel">Введите Ваш e-mail:</label>
-						<input type="text" id="mail" class="write" name="mail" placeholder="Ivanov@mail.ru"required/>
+						<label for="email-1">Введите Ваш e-mail:</label>
+						<input type="text" id="email-1" class="write" name="email" placeholder="Ivanov@mail.ru"required/>
 						<input type="hidden" name="subject" placeholder="Ivanov@mail.ru"/>
-						<label for="name">Чем мы можем Вам помочь?</label>
-						<!-- <input type="text" id="name" name="name" required/> -->
-						<p><textarea></textarea></p>
+						<label for="question">Чем мы можем Вам помочь?</label>
+						<p><textarea id="question" name="1" required></textarea></p>
+						<input type="hidden" name="1-name" value="Вопрос" required/>
 						<input type="submit" class="ajax b-orange-butt rounded" value="Отправить запрос!">
 					</div>
 				</form>
@@ -394,15 +392,13 @@
 				<h3>В личном кабинете будут Ваши заказы 
 				и результаты тренировок
 				</h3>
-				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+				<form action="kitsend.php" method="POST" id="b-form-4" data-block="#b-popup-1">
 					<div class="b-popup-form">
-						<!-- <label for="name">Введите Ваше имя</label>
-						<input type="text" id="name" name="name" required/> -->
-						<label for="tel">Введите Ваш e-mail:</label>
-						<input type="text" id="mail" class="write" name="mail" placeholder="Ivanov@mail.ru"required/>
+						<label for="email-2">Введите Ваш e-mail:</label>
+						<input type="text" id="email-2" class="write" name="email" placeholder="Ivanov@mail.ru"required/>
 						<input type="hidden" name="subject" placeholder="Ivanov@mail.ru"/>
-						<label for="name">Ваш пароль:</label>
-						<input type="text" class="pass" name="name" required/>
+						<label for="password-1">Ваш пароль:</label>
+						<input type="text" id="password-1" class="pass" name="password" required/>
 						<input type="submit" class="ajax b-orange-butt rounded sys" value="войти">
 					</div>
 				</form>
@@ -414,15 +410,13 @@
 				</h2>
 				<h3>В личном кабинете будут Ваши заказы 
 				и результаты тренировок</h3>
-				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+				<form action="kitsend.php" method="POST" id="b-form-5" data-block="#b-popup-1">
 					<div class="b-popup-form">
-						<!-- <label for="name">Введите Ваше имя</label>
-						<input type="text" id="name" name="name" required/> -->
-						<label for="tel">Введите Ваш e-mail:</label>
-						<input type="text" id="mail" class="write" name="mail" placeholder="Ivanov@mail.ru"required/>
+						<label for="email-3">Введите Ваш e-mail:</label>
+						<input type="text" id="email-3" class="write" name="email" placeholder="Ivanov@mail.ru"required/>
 						<input type="hidden" name="subject" placeholder="Ivanov@mail.ru"/>
-						<label for="name">Придумайте пароль:</label>
-						<input type="text" class="pass" name="name" required/>
+						<label for="password-2">Придумайте пароль:</label>
+						<input type="text" id="password-2" class="pass" name="password" required/>
 						<input type="submit" class="ajax b-orange-butt rounded sys" value="зарегистрироваться">
 					</div>
 				</form>
@@ -434,18 +428,15 @@
 				</h2>
 				<h3>Оставьте Ваши данные, и наш менеджер 
 				свяжется с Вами в течение 10 минут</h3>
-				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+				<form action="kitsend.php" method="POST" id="b-form-6" data-block="#b-popup-1">
 					<div class="b-popup-form">
-						<!-- <label for="name">Введите Ваше имя</label>
-						<input type="text" id="name" name="name" required/> -->
-						<label for="tel">Введите Ваше имя:</label>
-						<input type="text" id="mail" class="write" name="mail" placeholder="Иванов Иван"required/>
+						<label for="email-4">Введите Ваше имя:</label>
+						<input type="text" id="email-4" class="write" name="email" placeholder="Иванов Иван"required/>
 						<input type="hidden" name="subject" placeholder="Ivanov@mail.ru"/>
-						<label for="te">Введите Ваш телефон:</label>
+						<label for="phone-3">Введите Ваш телефон:</label>
 						<div class="clearfix">
-
-						<div class="left phone-img"></div>
-							<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
+							<div class="left phone-img"></div>
+							<input class="left" type="text" id="phone-3" name="phone" placeholder="+7 (___) ___-__-__" required/>
 						</div>
 						<input type="submit" class="ajax b-orange-butt rounded sys" value="Заказать звонок">
 					</div>
@@ -460,13 +451,12 @@
 				<h4>под Ваши цели и с учетом Ваших пожеланий</h4>
 				<h3>Оставьте заявку, и наши специалисты перезвонят 
 				Вам в течение 10 минут</h3>
-				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+				<form action="kitsend.php" method="POST" id="b-form-7" data-block="#b-popup-1">
 					<div class="b-popup-form">
-						<label for="te">Введите Ваш телефон:</label>
+						<label for="phone-4">Введите Ваш телефон:</label>
 						<div class="clearfix">
-
-						<div class="left phone-img"></div>
-							<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
+							<div class="left phone-img"></div>
+							<input class="left" type="text" id="phone-4" name="phone" placeholder="+7 (___) ___-__-__" required/>
 						</div>
 						<input type="submit" class="ajax b-orange-butt rounded sys" value="получить программу питания">
 					</div>
@@ -482,14 +472,12 @@
 				<h3>Введите телефон, и промокод 
 				автоматически будет выслан
 				</h3>
-				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+				<form action="kitsend.php" method="POST" id="b-form-8" data-block="#b-popup-1">
 					<div class="b-popup-form">
-						<!-- <label for="name">Введите Ваше имя</label>
-						<input type="text" id="name" name="name" required/> -->
-						<label for="tel">Введите Ваш телефон:</label>
+						<label for="phone-5">Введите Ваш телефон:</label>
 						<div class="clearfix">
-						<div class="left phone-img"></div>
-							<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
+							<div class="left phone-img"></div>
+							<input class="left" type="text" id="phone-5" name="phone" placeholder="+7 (___) ___-__-__" required/>
 						</div>
 						<input type="submit" class="ajax b-orange-butt rounded sys" value="получить промокод">
 					</div>
@@ -500,14 +488,14 @@
 			<div class="b-thanks b-popup">
 				<h3>Спасибо!</h3>
 				<h4>Ваша заявка успешно отправлена.<br/>Наш менеджер свяжется с Вами в течение часа.</h4>
-				<input type="submit" class="b-orange-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
+				<input type="submit" class="b-orange-butt rounded sys" onclick="$.fancybox.close(); return false;" value="Закрыть">
 			</div>
 		</div>
 		<div id="b-popup-error">
 			<div class="b-thanks b-popup">
 				<h3>Ошибка отправки!</h3>
 				<h4>Приносим свои извинения. Пожалуйста, попробуйте отправить Вашу заявку позже.</h4>
-				<input type="submit" class="b-orange-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
+				<input type="submit" class="b-orange-butt rounded sys" onclick="$.fancybox.close(); return false;" value="Закрыть">
 			</div>
 		</div>
 	</div>

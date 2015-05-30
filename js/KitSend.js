@@ -96,7 +96,7 @@ $(document).ready(function(){
 	$(".ajax").parents("form").submit(function(){
 		$("input[name='phone'].success").parent("div").removeClass("error");
 		$("input[name='phone'].error").parent("div").addClass("error");
-  		if( $(this).find("input.error").length == 0 ){
+  		if( $(this).valid() ){
   			var $this = $(this),
   				$thanks = $($this.attr("data-block"));
 
