@@ -244,18 +244,229 @@ label.error{
 	left: 50%;
 	margin-left: -585px;
 }
-/*input::-webkit-input-placeholder {
-	color: #434343;
+.b-popup form input::-webkit-input-placeholder {
+	color: rgba(71,62, 66, 0.6);
+    font-family: "latobold";
+    font-size: 14px;
 }
-input:-moz-placeholder {
-	color: #434343;
-}*/
+.b-popup form input:-moz-placeholder {
+	color: rgba(71,62, 66, 0.6);
+    font-family: "latobold";
+    font-size: 14px;
+}
 .b-popup{
 	background-image: url("../i/popup-pattern.jpg");
 	width: 349px;
-	font-family: "Lato";
+	font-family: "latoregular";
 	font-weight: 500;
+	border-radius: 5px;
 }
+	.b-popup h2{
+	    color: #3B3F3E;
+	    font-family: "latoblack";
+	    font-size: 25px;
+	    padding-top: 15px;
+		line-height: 24px;
+		text-align: center;
+	}
+	.b-popup h3{
+		color: #7C7C7C;
+		font-family: "latoregular";
+	    font-size: 13px;
+	    margin-top: 13px;
+		width: 240px;
+		display: inline-block;
+		line-height: 13px;
+	}
+	.b-popup form{
+		margin-top: 18px;
+	}
+		.b-popup form label{
+			color: #473E42;
+		    font-family: "latosemibold";
+		    font-size: 14px;
+		}
+		.b-popup form input{
+			width: 270px;
+			padding: 0px 10px;
+			display: block;
+			margin: 0px auto;
+			margin-top: 6px;
+		}
+			.b-popup form .write{
+				height: 37px;
+				text-align: center;
+				margin-bottom: 6px;
+			}
+			.b-popup form #name{
+				height: 100px;
+				text-align: left;
+				margin-bottom: 14px;
+			}
+		.b-popup form input[type="text"]{
+						border-radius: 5px;
+			border: 1px solid rgba(156, 139, 145, 0.49);
+		}
+		.b-popup form input[type="submit"]{
+			width: 238px;
+			height: 47px;
+			margin-bottom: 7px;
+			text-transform: uppercase;
+		}
+	.b-popup p{
+		font-family: "latoregular";
+    	font-size: 13px;
+    	color: #7C7C7C;
+    	line-height: 15px;
+    	margin-bottom: 12px;
+		display: inline-block;
+	}	
+		.b-popup p b{
+			color: #4A4A4A;
+			font-family: "latoblack";
+		}
+	.pass{
+		height: 39px;
+	}
+	#b-popup-system .b-popup{
+		padding-bottom: 25px;
+	}
+	#b-popup-system .b-popup .sys{
+		margin-top: 22px;
+	}
+	#b-popup-system .b-popup h3{
+			width: 240px;
+	}
+		#b-popup-system form{
+			text-align: left;
+			display: inline-block;
+		}
+		#b-popup-system label{
+			margin-left: 10px;
+		}
+		#b-popup-system input[type="text"]{
+			text-align: left;
+		}
+	#b-popup-registration{
+
+	}
+	#b-popup-registration .b-popup{
+		padding-bottom: 25px;
+	}
+		#b-popup-registration form{
+			text-align: left;
+			display: inline-block;
+		}
+		#b-popup-registration label{
+			margin-left: 10px;
+		}
+		#b-popup-registration input[type="text"]{
+			text-align: left;
+		}
+		#b-popup-registration .b-popup input[type="submit"]{
+			margin-top: 22px;
+		}
+		#b-popup-registration .b-popup h2{
+			font-size: 22px;
+	}
+	#b-popup-programm{
+	
+	}
+		#b-popup-programm .b-popup{
+			width: 598px;
+			text-align: center;
+		}
+		#b-popup-programm h3{
+			width: 300px;
+		}
+		#b-popup-programm p{
+			color: #000;
+    		font-family: "ProximaNovaRegular";
+    		font-size: 14px;
+    		margin-top: 10px;
+		}
+			#b-popup-programm p span{
+				font-size: 15px;
+				font-family: "ProximaNovaBold";
+				background-color: #F6F6F6;
+				border: 1px solid #D8D8D8;
+			}
+		#b-popup-programm form{
+			margin-top: 4px;
+		}
+		#b-popup-programm h4{
+		    color: #868A89;
+		    font-family: "latosemibold_italic";
+		    font-size: 16px;
+		    margin-top: 2px;
+		}
+		#b-popup-programm .b-popup input[type="submit"]{
+			    width: 276px;
+			    font-size: 13px;
+		}
+	#b-popup-callback{
+
+	}
+		#b-popup-callback .b-popup{
+			padding-bottom: 15px;
+		}
+		#b-popup-callback .b-popup h3{
+			width: 300px;
+		}
+		#b-popup-callback .b-popup form{
+			text-align: left;
+			display: inline-block;
+			margin-top: 0px;
+		}
+		#b-popup-callback label{
+			margin-left: 10px;
+		}
+		#b-popup-callback input[type="text"]{
+			text-align: left;
+		}
+		.b-popup form> div{
+			display: inline-block;
+			margin-top: 12px;
+		}
+		.b-popup form .phone-img{
+			width: 40px;
+			height: 40px;
+			background-color: #FFF;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			border-radius: 5px 0px 0px 5px;
+			background-image: url('../i/phone.png');
+			border: 1px solid rgba(168, 168, 168, 0.5);
+			margin-top: 6px;
+			border-right: 0px;
+		}
+		.b-popup form #phone1{
+			border: 1px solid rgba(168, 168, 168, 0.5);
+			height: 40px;
+			width: 229px;
+			font-size: 15px;
+			border-radius: 0px 5px 5px 0px;
+			padding-left: 10px;
+			margin-bottom: 17px;
+		}
+	#b-popup-code{
+		padding-bottom: 25px;
+	}
+		#b-popup-code h2{
+			width: 267px;
+			display: inline-block;
+		}
+			#b-popup-code h2 span{
+				 color: #DD590C;
+			}
+		#b-popup-code form{
+			text-align: left;
+			display: inline-block;
+			margin-top: 0px;
+		}
+		#b-popup-code label{
+			margin-left: 10px;
+		}
 .rounded{
 	border-radius: 125px;
 }

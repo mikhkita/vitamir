@@ -44,15 +44,15 @@
 			<div class="cabinet right">
 				<ul class="clearfix">
 					<li class="right">
-						<a href="#"><p>Войти</p></a>
+						<a class="fancy" href="#"  data-block="#b-popup-system"><p>Войти</p></a>
 					</li>
 					<li class="right">
-						<a href="#"><p>Зарегистрироваться</p></a>
+						<a class="fancy" href="#" data-block="#b-popup-registration"><p>Зарегистрироваться</p></a>
 					</li>
 				</ul>
 			</div>
 			<div class="percent right clearfix">
-				<a class="right" href="#">Получить промокод на скидку</a>
+				<a class="fancy right" href="#" data-block="#b-popup-code">Получить промокод на скидку</a>
 				<img class="right" src="i/percent.png">
 			</div>
 		</div>
@@ -132,7 +132,7 @@
 								<div class="left phone-img"></div>
 								<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
 							</div>
-							<button class="ajax b-orange-butt rectangle" type="submit">Получить программу питания!</button>		
+							<button class="ajax fancy b-orange-butt rectangle" type="submit"  data-block="#b-popup-programm">Получить программу питания!</button>		
 						</form>
 					<p>Сегодня мы составили уже <span>&nbsp;17 </span>&nbsp;программ</p>
 				</div>
@@ -236,7 +236,7 @@
 							<div class="left phone-img"></div>
 							<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
 						</div>
-						<button class="ajax b-orange-butt rectangle" type="submit">Получить промокод</button>		
+						<button class="ajax b-orange-butt rectangle fancy" type="submit" data-block="#b-popup-code">Получить промокод</button>		
 					</form>
 				</div>
 				<div class="cloud">
@@ -339,7 +339,7 @@
 			<div>
 				<h2>Остались вопросы?</h2>
 			</div>
-			<a class="b-orange-butt rounded" href="#">Задайте их менеджеру</a>
+			<a class="b-orange-butt rounded fancy" href="#" data-block="#b-popup-question">Задайте их менеджеру</a>
 		</div>
 	</div>
 	<div class="b b-10">
@@ -356,7 +356,7 @@
 					<p class="right">+7 495 12 345 67</p>
 					<img class="right" src="i/tel-2.png">
 				</div>
-				<a href="">Заказать звонок</a>
+				<a class="fancy" href="#" data-block="#b-popup-callback">Заказать звонок</a>
 			</div>
 			<div class="right copyright">
 				<p>Copyright © 1993-2015. Компания Здоровье. Все права защищены.</p>
@@ -366,16 +366,131 @@
 	<div style="display:none;">
 		<div id="b-popup-question">
 			<div class="b-popup" >
-				<h3>Оставьте заявку</h3>
-				<h4>и наши специалисты<br>свяжутся с Вами в ближайшее время</h4>
+				<h2>Задайте вопрос нашему 
+				менеджеру
+				</h2>
+				<h3>В форме ниже, и мы ответим на него в течение 40 минут</h3>
 				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
 					<div class="b-popup-form">
-						<label for="name">Введите Ваше имя</label>
+						<!-- <label for="name">Введите Ваше имя</label>
+						<input type="text" id="name" name="name" required/> -->
+						<label for="tel">Введите Ваш e-mail:</label>
+						<input type="text" id="mail" class="write" name="mail" placeholder="Ivanov@mail.ru"required/>
+						<input type="hidden" name="subject" placeholder="Ivanov@mail.ru"/>
+						<label for="name">Чем мы можем Вам помочь?</label>
 						<input type="text" id="name" name="name" required/>
-						<label for="tel">Введите Ваш номер телефона</label>
-						<input type="text" id="tel" name="phone" required/>
-						<input type="hidden" name="subject" value="Заказ"/>
-						<input type="submit" class="ajax b-orange-butt" value="Заказать">
+						<input type="submit" class="ajax b-orange-butt rounded" value="Отправить запрос!">
+					</div>
+				</form>
+				<p>Или позвоните нам по телефону<br>
+				<b>+7 (495) 542-60-01</b></p>
+			</div>
+		</div>
+		<div id="b-popup-system">
+			<div class="b-popup" >
+				<h2>Войдите в систему
+				</h2>
+				<h3>В личном кабинете будут Ваши заказы 
+				и результаты тренировок
+				</h3>
+				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+					<div class="b-popup-form">
+						<!-- <label for="name">Введите Ваше имя</label>
+						<input type="text" id="name" name="name" required/> -->
+						<label for="tel">Введите Ваш e-mail:</label>
+						<input type="text" id="mail" class="write" name="mail" placeholder="Ivanov@mail.ru"required/>
+						<input type="hidden" name="subject" placeholder="Ivanov@mail.ru"/>
+						<label for="name">Ваш пароль:</label>
+						<input type="text" class="pass" name="name" required/>
+						<input type="submit" class="ajax b-orange-butt rounded sys" value="войти">
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="b-popup-registration">
+			<div class="b-popup" >
+				<h2>Зарегистрируйтесь в системе
+				</h2>
+				<h3>В личном кабинете будут Ваши заказы 
+				и результаты тренировок</h3>
+				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+					<div class="b-popup-form">
+						<!-- <label for="name">Введите Ваше имя</label>
+						<input type="text" id="name" name="name" required/> -->
+						<label for="tel">Введите Ваш e-mail:</label>
+						<input type="text" id="mail" class="write" name="mail" placeholder="Ivanov@mail.ru"required/>
+						<input type="hidden" name="subject" placeholder="Ivanov@mail.ru"/>
+						<label for="name">Придумайте пароль:</label>
+						<input type="text" class="pass" name="name" required/>
+						<input type="submit" class="ajax b-orange-butt rounded sys" value="войти">
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="b-popup-callback">
+			<div class="b-popup" >
+				<h2>Заказать обратный звонок
+				</h2>
+				<h3>Оставьте Ваши данные, и наш менеджер 
+				свяжется с Вами в течение 10 минут</h3>
+				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+					<div class="b-popup-form">
+						<!-- <label for="name">Введите Ваше имя</label>
+						<input type="text" id="name" name="name" required/> -->
+						<label for="tel">Введите Ваше имя:</label>
+						<input type="text" id="mail" class="write" name="mail" placeholder="Иванов Иван"required/>
+						<input type="hidden" name="subject" placeholder="Ivanov@mail.ru"/>
+						<label for="te">Введите Ваш телефон:</label>
+						<div class="clearfix">
+
+						<div class="left phone-img"></div>
+							<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
+						</div>
+						<input type="submit" class="ajax b-orange-butt rounded sys" value="Заказать звонок">
+					</div>
+				</form>
+				<p>Или позвоните нам по телефону<br>
+				<b>+7 (495) 542-60-01</b></p>
+			</div>
+		</div>
+		<div id="b-popup-programm">
+		<div class="b-popup" >
+				<h2>Получите персональную программу питания</h2>
+				<h4>под Ваши цели и с учетом Ваших пожеланий</h4>
+				<h3>Оставьте заявку, и наши специалисты перезвонят 
+				Вам в течение 10 минут</h3>
+				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+					<div class="b-popup-form">
+						<label for="te">Введите Ваш телефон:</label>
+						<div class="clearfix">
+
+						<div class="left phone-img"></div>
+							<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
+						</div>
+						<input type="submit" class="ajax b-orange-butt rounded sys" value="получить программу питания">
+					</div>
+				</form>
+				<p>Сегодня мы составили уже <span>&nbsp;17&nbsp;</span> программ<br>
+			</div>
+		</div>
+		<div id="b-popup-code">
+			<div class="b-popup" >
+				<h2>Получите промокод 
+				на <span>5%-ю</span> скидку 
+				прямо сейчас</h2>
+				<h3>Введите телефон, и промокод 
+				автоматически будет выслан
+				</h3>
+				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
+					<div class="b-popup-form">
+						<!-- <label for="name">Введите Ваше имя</label>
+						<input type="text" id="name" name="name" required/> -->
+						<label for="tel">Введите Ваш телефон:</label>
+						<div class="clearfix">
+						<div class="left phone-img"></div>
+							<input class="left" type="text" id="phone1" name="phone" placeholder="+7 (___) ___-__-__" required/>
+						</div>
+						<input type="submit" class="ajax b-orange-butt rounded sys" value="получить промокод">
 					</div>
 				</form>
 			</div>
