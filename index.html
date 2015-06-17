@@ -252,6 +252,89 @@
 			<h2>Узнайте, сколько Вам нужно есть и пить воды в день</h2>
 			<h3>Рассчитайте суточную норму воды, калорий, белков, 
 			жиров и углеводов под Ваши цели</h3>
+			<div class="b-calk clearfix">
+				<div class="b-left-side left">
+					<h4>Ваш пол:</h4>
+					<div class="radio left">
+					    <input id="male" type="radio" name="block">
+					    <label for="male">Мужчине</label>
+					    <input id="female" type="radio" name="block">
+					    <label for="female">Женщине</label>
+					</div>
+					<div class="b-dimensions">
+						<form action="kitsend.php" method="POST" id="">
+							<label class="for-form" for="email-1">Введите Ваш возраст (лет):</label>
+							<input type="text" id="email-1" name="email" placeholder="Например, 21"required/>
+							<label class="for-form" for="question">Введите Ваш вес, кг:</label>
+							<input type="text" id="email" name="email" placeholder="Например, 63"required/>
+							<label class="for-form" for="question">Введите Ваш рост, см:</label>
+							<input type="text" id="email" name="email" placeholder="Например, 180"required/>
+							<label class="for-form" for="question">Выберите Ваш образ жизни</label>
+							<select id="life">
+								<option>Сидячий, малоподвижный</option>
+							</select>
+							<div class="b-form-radio">
+								<h5>Ваша цель:</h5>
+								<div class="radio">
+									<div><input id="mass" type="radio" name="block">
+								    <label for="mass">Сбросить вес</label></div>
+								    <div><input id="forma" type="radio" name="block">
+								    <label for="forma">Набрать массу</label></div>
+								    <div><input id="ves" type="radio" name="block">
+								    <label for="ves">Поддерживать форму</label></div>
+								</div>
+							</div>
+							<input type="submit" class="ajax b-orange-butt rounded" value="Получить расчет">
+						</form>
+					</div>
+				</div>
+				<div class="b-right-side left">
+					<h4>Ваша суточная норма будет показана здесь</h4>
+					<div class="mass">
+						<h5>Ваши ориентиры для набора массы:</h5>
+						<table>
+							<tr>
+								<td><p>Диапазон калорий</p></td>
+								<td><span>2298-2507</span></td>
+							</tr>
+							<tr>
+								<td><p>Суточная норма белка</p></td>
+								<td><span>172-92 гр</span></td>
+							</tr>
+							<tr>
+								<td><p>Диапазон калорий</p></td>
+								<td><span>2298-2507</span></td>
+							</tr>
+							<tr>
+								<td><p>Суточная норма белка</p></td>
+								<td><span>172-92 гр</span></td>
+							</tr>
+							<tr>
+								<td><p>Идельное количество воды в день:</p></td>
+								<td><span>2.4 литра</span></td>
+							</tr>
+						</table>
+					</div>
+					<div class="cal">
+						<h5>Суточная норма каллорий:</h5>
+						<table>
+							<tr>
+								<td><p>Диапазон калорий</p></td>
+								<td><span>2298-2507</span></td>
+							</tr>
+							<tr>
+								<td><p>Суточная норма белка</p></td>
+								<td><span>172-92 гр</span></td>
+							</tr>
+							<tr>
+								<td><p>Диапазон калорий</p></td>
+								<td><span>2298-2507</span></td>
+							</tr>
+						</table>
+					</div>
+					<a href="#">Отправить на почту</a>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="b b-6">
