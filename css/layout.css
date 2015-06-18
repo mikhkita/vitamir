@@ -1262,11 +1262,11 @@ margin-bottom: 6px;
 			.b-5 .b-dimensions{
 
 			}
-				.b-5 .b-dimensions form{
+				.b-5 .b-dimensions {
 					width: 233px;
 					text-align: left;
 				}
-					.b-5 .b-dimensions form input[type="text"]{
+					.b-5 .b-dimensions input[type="text"]{
 						width: 211px;
 						background-color: #FFF;
 						border: 1px solid rgba(156, 139, 145, 0.49);
@@ -1278,14 +1278,14 @@ margin-bottom: 6px;
 						margin-bottom: 4px;
 						padding: 7px 0px 7px 7px;
 					}
-					.b-5 .b-dimensions form input[type="submit"]{
+					.b-5 .b-dimensions input[type="submit"]{
 						margin-top: 5px;
 						display: inline-block;
 						padding: 12px 33px;
 						margin-right: 68px;
 						text-transform: uppercase;
 					}
-					.b-5 .b-dimensions form select{
+					.b-5 .b-dimensions select{
 						width: 219px;
 						background-color: #FFF;
 						border: 1px solid rgba(156, 139, 145, 0.49);
@@ -1297,22 +1297,22 @@ margin-bottom: 6px;
 						margin-bottom: 13px;
 						padding: 7px 0px 7px 7px;
 					}
-					.b-5 .b-dimensions form .for-form{
+					.b-5 .b-dimensions .for-form{
 						color: #473E42;
 						font-family: "latobold";
 						font-size: 14px;
 						margin-left: 1px;
 					}
-				.b-5 .b-dimensions form .b-form-radio{
+				.b-5 .b-dimensions .b-form-radio{
 
 				}
-					.b-5 .b-dimensions form .b-form-radio h5{
+					.b-5 .b-dimensions .b-form-radio h5{
 						color: #473E42;
 						font-family: "latoblack";
 						font-size: 13px;
 						margin-left: 1px;
 					}
-					.b-5 .b-dimensions form .b-form-radio label{
+					.b-5 .b-dimensions .b-form-radio label{
 						margin-bottom: 3px;
 					}
 		.b-5 .b-right-side{
@@ -1355,15 +1355,15 @@ margin-bottom: 6px;
 						.b-5 .b-right-side table tr:nth-child(2n) td{
 							padding: 11px 0px 11px 10px;
 						}
-						.b-5 .b-right-side table tr:nth-child(5){
+						.b-5 .b-right-side .blue tr:nth-child(3){
 							background-color: #FFF;
 							border-top: 1px dashed #b7b7b7;
 							border-bottom: 1px dashed #b7b7b7;
 						}
-							.b-5 .b-right-side table tr:nth-child(5) td{
+							.b-5 .b-right-side .blue tr:nth-child(3) td{
 								padding: 9px 10px 9px 10px;
 							}
-						.b-5 .b-right-side table tr:nth-child(5) td p{
+						.b-5 .b-right-side .blue tr:nth-child(3) td p{
 							color: #0497E3;
 							font-family: "latoblack";
 							font-size: 15px;

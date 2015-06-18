@@ -253,65 +253,69 @@
 			<h3>Рассчитайте суточную норму воды, калорий, белков, 
 			жиров и углеводов под Ваши цели</h3>
 			<div class="b-calk clearfix">
-				<div class="b-left-side left">
-					<h4>Ваш пол:</h4>
-					<div class="radio left">
-					    <input id="male" type="radio" name="block">
-					    <label for="male">Мужчине</label>
-					    <input id="female" type="radio" name="block">
-					    <label for="female">Женщине</label>
-					</div>
-					<div class="b-dimensions">
-						<form action="kitsend.php" method="POST" id="">
-							<label class="for-form" for="email-1">Введите Ваш возраст (лет):</label>
-							<input type="text" id="email-1" name="email" placeholder="Например, 21"required/>
-							<label class="for-form" for="question">Введите Ваш вес, кг:</label>
-							<input type="text" id="email" name="email" placeholder="Например, 63"required/>
-							<label class="for-form" for="question">Введите Ваш рост, см:</label>
-							<input type="text" id="email" name="email" placeholder="Например, 180"required/>
-							<label class="for-form" for="question">Выберите Ваш образ жизни</label>
-							<select id="life">
-								<option>Сидячий, малоподвижный</option>
+				<form action="#" method="POST" id="calc">
+					<div class="b-left-side left">
+						<h4>Ваш пол:</h4>
+						<div class="radio left">
+						    <input id="male" type="radio" name="sex" value="male">
+						    <label for="male">Мужской</label>
+						    <input id="female" type="radio" name="sex" checked value="female">
+						    <label for="female">Женский</label>
+						</div>
+						<div class="b-dimensions">
+							<label class="for-form" for="age">Введите Ваш возраст (лет):</label>
+							<input type="text" id="age" name="age" placeholder="Например, 21"required/>
+							<label class="for-form" for="weight">Введите Ваш вес, кг:</label>
+							<input type="text" id="weight" name="weight" placeholder="Например, 63"required/>
+							<label class="for-form" for="growth">Введите Ваш рост, см:</label>
+							<input type="text" id="growth" name="growth" placeholder="Например, 180"required/>
+							<label class="for-form" for="lifestyle">Выберите Ваш образ жизни</label>
+							<select name="lifestyle">
+								<option value="1.2" selected>Сидячий, малоподвижный</option>
+								<option value="1.4">Легкая активность (упражнения 1-3 раза в неделю)</option>
+								<option value="1.6">Средняя активность (тренировки 3-5 раз в неделю)</option>
+								<option value="1.8">Высокая активность (высокие нагрузки каждый день)</option>
+								<option value="1.9">Экстремально высокая активность</option>
 							</select>
 							<div class="b-form-radio">
 								<h5>Ваша цель:</h5>
 								<div class="radio">
-									<div><input id="mass" type="radio" name="block">
-								    <label for="mass">Сбросить вес</label></div>
-								    <div><input id="forma" type="radio" name="block">
-								    <label for="forma">Набрать массу</label></div>
-								    <div><input id="ves" type="radio" name="block">
-								    <label for="ves">Поддерживать форму</label></div>
+									<div><input id="decrease" type="radio" name="goal" value="decrease" checked>
+								    <label for="decrease">Сбросить вес</label></div>
+								    <div><input id="increase" type="radio" name="goal" value="increase">
+								    <label for="increase">Набрать массу</label></div>
+								    <div><input id="normal" type="radio" name="goal" value="normal">
+								    <label for="normal">Поддерживать форму</label></div>
 								</div>
 							</div>
-							<input type="submit" class="ajax b-orange-butt rounded" value="Получить расчет">
-						</form>
+							<input type="submit" class="ajax b-orange-butt rounded" value="Получить расчет">	
+						</div>
 					</div>
-				</div>
+				</form>
 				<div class="b-right-side left">
 					<h4>Ваша суточная норма будет показана здесь</h4>
 					<div class="mass">
-						<h5>Ваши ориентиры для набора массы:</h5>
-						<table>
+						<h5>Суточная норма калорий:</h5>
+						<table class="blue">
 							<tr>
+								<td><p>По формуле Харриса-Бенедикта</p></td>
+								<td><span id="HB">&mdash;</span></td>
+							</tr>
+							<tr>
+								<td><p>По формуле Миффлина - Сан Жеора</p></td>
+								<td><span id="MG">&mdash;</span></td>
+							</tr>
+							<!-- <tr>
 								<td><p>Диапазон калорий</p></td>
 								<td><span>2298-2507</span></td>
 							</tr>
 							<tr>
 								<td><p>Суточная норма белка</p></td>
 								<td><span>172-92 гр</span></td>
-							</tr>
-							<tr>
-								<td><p>Диапазон калорий</p></td>
-								<td><span>2298-2507</span></td>
-							</tr>
-							<tr>
-								<td><p>Суточная норма белка</p></td>
-								<td><span>172-92 гр</span></td>
-							</tr>
+							</tr> -->
 							<tr>
 								<td><p>Идельное количество воды в день:</p></td>
-								<td><span>2.4 литра</span></td>
+								<td><span id="water">&mdash;</span></td>
 							</tr>
 						</table>
 					</div>
@@ -320,19 +324,23 @@
 						<table>
 							<tr>
 								<td><p>Диапазон калорий</p></td>
-								<td><span>2298-2507</span></td>
+								<td><span><span id="cal">&mdash;</span></td>
 							</tr>
 							<tr>
 								<td><p>Суточная норма белка</p></td>
-								<td><span>172-92 гр</span></td>
+								<td><span id="protein">&mdash;</span></td>
 							</tr>
 							<tr>
-								<td><p>Диапазон калорий</p></td>
-								<td><span>2298-2507</span></td>
+								<td><p>Суточная норма жиров</p></td>
+								<td><span id="fat">&mdash;</span></td>
+							</tr>
+							<tr>
+								<td><p>Суточная норма углеводов</p></td>
+								<td><span id="carbo">&mdash;</span></td>
 							</tr>
 						</table>
 					</div>
-					<a href="#">Отправить на почту</a>
+					<!-- <a href="#">Отправить на почту</a> -->
 				</div>
 			</div>
 		</div>
