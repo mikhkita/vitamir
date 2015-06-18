@@ -157,7 +157,7 @@ $(document).ready(function(){
 				var carbo_min = Math.round(MG_min*0.4/4);
 				var fat_min = Math.round(MG_min*0.25/9);
 
-				var protein_max = Math.round(MG_max*0.35/4);
+				var protein_max = Math.round(MG_max*0.30/4);
 				var carbo_max = Math.round(MG_max*0.50/4);
 				var fat_max = Math.round(MG_max*0.3/9);
 			}
