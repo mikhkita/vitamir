@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'latosemibold';
+    src: url('../fonts/lato-semibold-webfont.eot');
+    src: url('../fonts/lato-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-semibold-webfont.woff') format('woff'),
+         url('../fonts/lato-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/lato-semibold-webfont.svg#latosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.eot');
+    src: url('../fonts/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff'),
+         url('../fonts/lato-bold-webfont.ttf') format('truetype'),
+         url('../fonts/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.b-orange-butt{
+	color: #FFF;
+	font-family: "ProximaNovaBold";
+	font-size: 17px;
+	text-shadow: 0 -1px 0 rgba(191, 98, 66, 0.8);
+	border: none;
+	box-shadow: 0 1px 2px rgba(102, 101, 101, 0.74), inset 0 -1px 2px #CC3501;
+	border: none;
+	cursor: pointer;
+	background: #ff8916; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff8916 0%, #d54f0a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8916), color-stop(100%,#d54f0a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff8916 0%,#d54f0a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff8916 0%,#d54f0a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff8916 0%,#d54f0a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff8916 0%,#d54f0a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8916', endColorstr='#d54f0a',GradientType=0 ); /* IE6-9 */
+}
+	.b-orange-butt:hover{
+		background: #ff7b00; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ff7b00 0%, #ce3000 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7b00), color-stop(100%,#ce3000)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ff7b00 0%,#ce3000 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ff7b00 0%,#ce3000 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ff7b00 0%,#ce3000 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #ff7b00 0%,#ce3000 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7b00', endColorstr='#ce3000',GradientType=0 ); /* IE6-9 */
+	}
+	.b-orange-butt:active{
+		position: relative;
+		top: 1px;
+		box-shadow: 0 1px 1px rgba(102, 101, 101, 0.5), inset 0 -1px 2px #CC3501;
+	}
+
+body{
+	text-align: center;
+	font-family: 'latoregular';
+	overflow-x: hidden;
+}
+
+.b-block-2{
+	position: relative;
+  	width: 905px;
+  	margin: 0px auto;
+}
+
+.b-2{
+	padding-bottom: 140px;
+}
+
+	.b-2 > .b-block .phone-img{
+		width: 40px;
+		height: 40px;
+		background-color: #FFF;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		border-radius: 5px 0px 0px 5px;
+		background-image: url('../i/phone.png');
+		border: 1px solid rgba(168, 168, 168, 0.5);
+		border-right: 0px;
+	}
+
+	.b-2 > .b-block input{
+		border: 1px solid rgba(168, 168, 168, 0.5);
+		height: 40px;
+		width: 229px;
+		font-size: 15px;
+		border-radius: 0px 5px 5px 0px;
+		padding-left: 10px;
+		margin-bottom: 17px;
+	}
+
+	input[name="phone"]{
+		font-family: 'Lucida Grande';
+		letter-spacing: 2px;
+	}
+
+	.b-2 .back{
+	}
+
+		.b-2 .back h2{
+			margin-top: 36px;
+  			text-align: left;
+  			font-size: 14px;
+  			font-family: 'latosemibold';
+  			color: #8e8e8e;
+  			padding-left: 30px;
+		}
+
+		.b-2 .back h2:hover{
+			text-decoration: underline;
+		}
+
+		.b-2 .way{ 
+			margin-top: 41px;
+		}
+
+			.b-2 .way .one{
+				font-family: 'latobold';
+				font-size: 15px;
+				color: #818181;
+				margin-right: 12px;
+				margin-left: 3px;
+			}
+
+			.b-2 .way .grey{
+				font-family: 'latobold';
+				font-size: 15px;
+				color: #818181;
+				margin-right: 33px;
+			}
+	
+			.b-2 .way .way-arrow{
+				margin-right: 31px;
+				margin-top: 3px;
+			}
+
+			.b-2 .way .two{
+				margin-right: 13px;
+			}
+	
+			.b-2 .way .green{
+				font-family: 'latobold';
+				font-size: 15px;
+				color: #2ab938;
+			}
+
+			.b-2 .way .delivery{
+				margin-left: 75px;
+				margin-top: -9px;
+				border: 1px solid #d9d9d9;
+				border-radius: 5px;
+				padding: 7px 46px 9px 33px;
+			}
+
+				.b-2 .way .delivery img{
+					margin-right: 22px;
+					margin-top: 3px;
+				}
+
+				.b-2 .way .delivery p{
+					font-family: 'latobold';
+					font-size: 14px;
+					color: #333333;
+					margin-top: 4px;
+				}
+
+			.form-header{
+				margin-top: 61px;
+				width: 470px;
+			}
+
+				.form-header img{
+					margin-left: 4px;
+					margin-right: 12px;
+					margin-top: 4px;
+				}
+
+				.form-header h2{
+					font-family: 'latobold';
+					font-size: 18px;
+					color: #333333;
+				}
+
+			.b-2 .reg-form{
+				width: 426px;
+				padding-left: 32px;
+				text-align: left;	
+				padding-top: 12px;
+			}
+				.b-2 .reg-form label{
+					font-family: 'latobold';
+					font-size: 14px;
+					color: #473e42;
+					margin-bottom: 7px;
+					margin-top: 8px;
+					margin-left: 5px;
+					display: inline-block;
+				}
+
+				.b-2 .reg-form .phone-img{
+					width: 36px;
+					height: 35px;
+					background-color: #FFF;
+					background-repeat: no-repeat;
+					background-position: 50% 50%;
+					border-radius: 5px 0px 0px 5px;
+					background-image: url('../i/phone.png');
+					border: 1px solid rgba(168, 168, 168, 0.5);
+					border-right: 0px;
+				}
+
+				.b-2 input[type='text']{
+					border: 1px solid rgba(168, 168, 168, 0.5);
+					height: 35px;
+					font-size: 15px;
+					width: 279px;
+					border-radius: 5px;
+					padding-left: 10px;
+					margin-bottom: 8px;
+				}
+
+				.b-2 .reg-form input[name='phone']{
+					border: 1px solid rgba(168, 168, 168, 0.5);
+					height: 35px;
+					font-size: 15px;
+					width: 243px;
+					border-radius: 0px 5px 5px 0px;
+					padding-left: 10px;
+					margin-bottom: 8px;
+				}
+
+				.b-2 .reg-form input[name='e-mail']{
+					border: 2px solid #d26241;
+					height: 35px;
+					font-size: 15px;
+					width: 279px;
+					border-radius: 5px;
+					padding-left: 10px;
+					margin-bottom: 8px;	
+				}
+
+				.b-2 .reg-form .error{
+					font-family: 'robotoregular';
+					font-size: 13px;
+					color: #ff3702;
+					margin-top: 10px;
+					margin-left: 9px;
+				}
+
+				.b-2 .line{
+					width: 845px;
+					height: 1px;
+					border-bottom: 1px solid #d4d4d4;
+					margin-top: 29px;
+					margin-left: 6px;
+				}
+
+				.b-2  .b-form-radio-delivery{
+					width: 400px;
+				}
+
+					.b-2  .b-form-radio-delivery img{
+						margin-left: 7px;
+						margin-top: 34px;
+						margin-right: 10px;
+						margin-bottom: 19px;
+					}
+
+					.b-2  .b-form-radio-delivery h2{
+						margin-top: 30px;
+						font-family: 'latobold';
+						font-size: 18px;
+						color: #333333;
+					}
+
+					.b-2  .b-form-radio-delivery label{
+						font-family: 'latobold';
+						font-size: 14px;
+						color: #473e42;
+						margin-top: -2px;
+					}
+
+					.b-2  .b-form-radio-delivery h3{
+						font-family: 'latobold';
+						font-size: 14px;
+						color: #a19d9f;
+						margin-left: 11px;
+						margin-top: -2px;
+					}
+
+					.b-2  .b-form-radio-delivery input[type="radio"]{
+						height: 16px;
+						width: 16px;
+						margin-left: 33px;
+						margin-right: 7px;
+					}
+
+				.b-2 .pay-radio{
+					margin-left: 63px;
+				}
+					
+					.b-2  .pay-radio h2{
+						margin-top: 28px;
+						margin-left: -2px;
+					}
+
+					.b-2  .pay-radio img{
+						margin-top: 27px;
+					}
+
+				.b-2 .adress{
+					width: 400px;
+				}
+
+					.b-2 .adress h2{
+						font-family: 'latobold';
+						font-size: 18px;
+						margin-top: 9px;
+						margin-left: 10px;
+						color: #333333;
+						margin-bottom: 11px;
+					}
+
+					.b-2 .adress img{
+						margin-top: 16px;
+						margin-left: 12px;
+					}
+
+					.b-2 input[name="adress"]{
+						margin-left: -38px;
+						margin-bottom: 10px;
+					}
+
+
+
