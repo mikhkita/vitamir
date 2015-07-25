@@ -199,7 +199,7 @@ input.error,textarea.error{
 	border: 1px solid rgba(255, 0, 0, 1) !important;
 }
 .ps-lines{
-	display: none;
+	/*display: none;*/
 }
 	.ps-lines li.v{
 		position: fixed;
@@ -672,6 +672,7 @@ margin-bottom: 6px;
 					margin-bottom: 10px;
 				}
 				.b-1 .header .logo img{
+					margin-top: 28px;
 					display: inline-block;
 				}
 			.b-1 .header ul{
@@ -1028,7 +1029,296 @@ margin-bottom: 6px;
 		}
 		.b-3 .b-calc-cont{
 			height: 900px;
+			width: 1000px;
+			/*padding-left: 30px;*/
+			padding-top: 30px;
 		}
+			.b-3 .b-filter{
+				width: 270px;
+				box-sizing: border-box;
+				background-color: #FFF;
+				border-radius: 5px;
+				padding: 25px 23px;
+			}
+				.b-3 .radio{
+					margin-left: 5px;
+					margin-top: 1px;
+					margin-bottom: 22px;
+				}
+				.b-3 .radio label{
+					display: inline-block;
+					cursor: pointer;
+					position: relative;
+					color: #473E42;
+					font-family: "latobold";
+					font-size: 14px;
+					padding-left: 20px;
+					margin-right: 24px;
+				}
+				.b-3 .radio input[type="radio"]{
+					display: none;
+				}
+					.b-3 .radio label:before{
+						content: "";
+					    display: inline-block;
+					    width: 12px;
+						height: 12px;
+						background-color: #FFF;
+						box-shadow: 0px 0px 0px 2px rgba(84, 56, 67, 0.58);
+					    margin-right: 10px;
+					    position: absolute;
+					    left: 0;
+					    bottom: 3px;
+					    background-color: #FFF;
+					}
+					.b-3 .radio label:before {
+				    	border-radius: 50%;
+					}
+					.b-3 .radio input[type=radio]:checked + label:before {
+						font-size: 58px;
+						text-align: center;
+						line-height: 20px;
+						display: block;
+						width: 6px;
+						height: 6px;
+						background-color: #9C8B91;
+						border: 3px solid #FFF;
+						box-shadow: 0px 0px 0px 2px rgba(84, 56, 67, 0.58);
+					}
+				.b-3 .b-toggle{
+				
+				}
+				.b-3 .b-toggle label{
+					width: 220px;
+					display: inline-block;
+					cursor: pointer;
+					font-family: "latobold";
+					padding: 9px 0px;
+					border: 1px solid rgba(156,139,145,.49);
+					border-radius: 5px;
+					margin-bottom: 11px;
+					color: #918b8e;
+					font-size: 14px;
+				}
+				.b-3 .b-toggle input[type="radio"]{
+					display: none;
+				}
+				.b-3 .b-toggle input[type=radio]:checked + label {
+					color: #FFF;
+					background-color: #bfd347;
+					border: 1px solid #bfd347;
+				}
+				.b-filter h3{
+					color: #473e42;
+					font-family: "latobold";
+					font-size: 14px;
+					text-align: left;
+					margin-top: 12px;
+				}
+				.b-attr{
+					margin-top: 13px;
+				}
+					.b-attr>li{
+
+					}
+						.b-attr>li h4{
+							color: #666566;
+							margin-top: 3px;
+							font-family: "latoheavy";
+							font-size: 11px;
+							text-align: left;
+						}
+						.b-attr>li .right{
+
+						}
+								.b-attr>li .right li{
+									padding: 4px 0px 5px;
+									float: left;
+									color: #473e42;
+								}
+							.b-attr>li .dark{
+								background-color: #ebf3f1;
+							}
+								.b-attr>li .dark li{
+									font-family: "latosemibold";
+									font-size: 11px;
+								}
+								.b-attr>li .dark li:nth-child(1),
+								.b-attr>li .light li:nth-child(1){
+									width: 47px; 
+								}
+								.b-attr>li .dark li:nth-child(2),
+								.b-attr>li .light li:nth-child(2){
+									width: 50px; 
+								}
+								.b-attr>li .dark li:nth-child(3),
+								.b-attr>li .light li:nth-child(3){
+									width: 70px; 
+								}
+							.b-attr>li .light{
+
+							}
+								.b-attr>li .light li{
+									font-family: "latoheavy";
+									font-size: 10px;
+								}
+				.b-3 .b-filter h5{
+					font-size: 18px;
+					color: #333;
+					font-family: "latoblack";
+					text-align: left;
+					margin-top: 14px;
+				}
+					.b-3 .b-filter h5 span{
+						font-size: 16px;
+						font-family: "latoregular";
+					}
+				.b-3 .b-filter .b-orange-butt{
+					margin-top: 20px;
+					display: inline-block;
+					width: 224px;
+					font-family: "latobold";
+					font-size: 12px;
+					text-transform: uppercase;
+					padding: 5px 0px;
+					margin-bottom: 2px;
+				}
+			.b-3 .b-menu{
+				width: 700px;
+				background-color: #FFF;
+				box-sizing: border-box;
+				border-radius: 5px;
+			}
+				.b-3 .b-menu-wrap{
+					padding: 20px 27px 35px 30px;
+				}
+				.b-3 .b-menu .b-header{
+
+				}
+					.b-3 .b-menu h3{
+						text-align: left;
+						color: #473e42;
+						font-family: "latobold";
+						font-size: 14px;
+					}
+					.b-3 .b-menu .b-blue-link{
+						display: inline-block;
+						margin-top: 2px;
+						color: #0497e3;
+						font-family: "latoheavy";
+						font-size: 11px;
+						text-decoration: underline;
+					}
+						.b-3 .b-menu .b-blue-link:hover{
+							text-decoration: none;
+						}
+				.b-time{
+					margin-top: 20px;
+					border-bottom: 1px dashed #b9b9b9;
+					padding-bottom: 11px;
+				}
+					.b-time .b-header{
+						margin-bottom: 12px;
+					}
+						.b-time .b-header h3{
+							width: 100px;
+							color: #333333;
+							font-size: 16px;
+							font-family: "latoblack";
+						}
+						.b-time .b-header h6{
+							font-family: "latosemibold_italic";
+							font-size: 13px;
+							color: #adacac;
+							margin-top: 4px;
+						}
+					.b-time ul.b-eat{
+
+					}
+						.b-time ul.b-eat li{
+							margin-bottom: 14px;
+							text-align: left;
+						}
+							.b-time ul.b-eat li .left{
+								
+							}	
+								.b-time ul.b-eat li img{
+									margin-right: 20px;
+								}
+								.b-time ul.b-eat li h4{
+									line-height: 18px;
+									max-width: 420px;
+									margin-top: 5px;
+									margin-bottom: 2px;
+									font-size: 16px;
+									color: #333333;
+									font-family: "latobold";
+								}
+								.b-time ul.b-eat li .b-more{
+									font-family: "latoheavy";
+									font-size: 12px;
+									color: #748285;
+									text-decoration: underline;
+								}
+									.b-time ul.b-eat li .b-more:hover{
+										text-decoration: none;
+									}
+							.b-time ul.b-eat li>.right{
+								margin-top: 3px;
+							}
+								.b-time ul.b-eat li>.right span {
+									font-size: 11px;
+									font-family: "latoheavy";
+									color: #676666;
+									margin-top: 11px;
+  									margin-right: 13px;
+  									display: inline-block;
+								}
+								.b-time ul.b-eat li>.right select{
+									cursor: pointer;
+								    background-color: #FFF;
+								    border: 2px solid rgba(84,56,67,.5);
+								    border-radius: 5px;
+								    color: #212121;
+								    font-family: "latoheavy";
+								    background-position: 64% 50%;
+								    background-repeat: no-repeat;
+								    background-image: url('../i/del-select.png');
+								    font-size: 12px;
+								    margin-top: 3px;
+								    margin-bottom: 13px;
+								    height: 33px;
+								    width: 52px;
+								    padding: 0px 8px;
+    								box-sizing: border-box;
+								}
+				.b-3 .b-green{
+					background-color: #dbff56;
+					padding: 25px 25px 25px 30px;
+				}
+					.b-green .left{
+
+					}
+						.b-green .left h4{
+							margin-top: 3px;
+							font-family: "latobold";
+							color: #333333;
+							font-size: 20px;
+							text-align: left;
+						}
+							.b-green .left h4 span{
+
+							}
+					.b-green .right{
+
+					}
+						.b-green .right .b-orange-butt{
+							display: inline-block;
+							font-size: 12px;
+							padding: 12px 0px 11px;
+							width: 248px;
+							text-transform: uppercase;
+						}
 			.b-3 h2{
 				color: #3B3F3E;
 				font-family: "elektra_text_probold";
@@ -1220,14 +1510,14 @@ margin-bottom: 6px;
 					margin-bottom: 14px;
 				}
 				.b-5 .radio label{
-				display: inline-block;
-				cursor: pointer;
-				position: relative;
-				color: #473E42;
-				font-family: "latobold";
-				font-size: 14px;
-				padding-left: 20px;
-				margin-right: 27px;
+					display: inline-block;
+					cursor: pointer;
+					position: relative;
+					color: #473E42;
+					font-family: "latobold";
+					font-size: 14px;
+					padding-left: 20px;
+					margin-right: 27px;
 				}
 				.b-5 .radio input[type="radio"]{
 					display: none;
@@ -1718,6 +2008,7 @@ margin-bottom: 6px;
 					margin-bottom: 10px;
 				}
 				.b-10 .logo img{
+					margin-top: 28px;
 					display: inline-block;
 				}
 		.b-10 .copyright{
