@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Витамир</title>
+	<meta name="keywords" content=''>
+	<meta name="description" content=''>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
+	<link rel="stylesheet" href="css/KitAnimate.css" type="text/css">
+	<link rel="stylesheet" href="css/layout.css" type="text/css">
+	<link rel="stylesheet" href="css/layout2.css" type="text/css">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+
+	<meta name="viewport" content="width=1000">
+
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="js/jssor.js"></script>
+	<script type="text/javascript" src="js/jssor.slider.js"></script>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="js/swipe.js"></script>
+	<script type="text/javascript" src="js/carousel.lite.js"></script>
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="js/inputmask.min.js"></script>
+	<script type="text/javascript" src="js/jquery.inputmask.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/KitProgress.js"></script>
+	<script type="text/javascript" src="js/KitAnimate.js"></script>
+	<script type="text/javascript" src="js/device.js"></script>
+	<script type="text/javascript" src="js/KitSend.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+	<ul class="ps-lines">
+		<li class="v" style="margin-left:-586px"></li>
+		<li class="v" style="margin-left:585px"></li>
+		<li class="v" ></li>
+	</ul>
+	<div class="b b-0">
+		<div class="b-block clearfix">
+			<div class="cabinet right">
+				<ul class="clearfix">
+					<li class="right">
+						<a class="fancy" href="#"  data-block="#b-popup-system"><p>Войти</p></a>
+					</li>
+					<li class="right">
+						<a class="fancy" href="#" data-block="#b-popup-registration"><p>Зарегистрироваться</p></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="b b-1">
+		<div class="header">
+			<div class="b-block clearfix">
+				<a href="#" class="logo1 logo left">
+					<h3>Клубы здорового питания в Москве</h3>
+					<img src="i/logo2.png">
+				</a>
+				<ul class="left clearfix">
+					<li class="left">
+						<a class="fancy" href="#" data-block="#b-popup-programm">
+							<div class="pict"></div>
+							<div class="text">
+								<p>выбрать еду</p>
+							</div>
+						</a>
+					</li>
+					<li class="left">
+						<a href="#">
+							<div class="pict"></div>
+							<div class="text">
+								<p>100% здоровая пища</p>
+							</div>
+						</a>
+					</li>
+					<li class="left">
+						<a href="#">
+							<div class="pict"></div>
+							<div class="text">
+								<p>составить режим питания</p>
+							</div>
+						</a>
+					</li>
+					<li class="left">
+						<a href="#">
+							<div class="pict"></div>
+							<div class="text">
+								<p>доставка</p>
+							</div>
+						</a>
+					</li>
+					<li class="left">
+						<a href="#">
+							<div class="pict"></div>
+							<div class="text">
+								<p>адреса клубов</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<div class="back-call right">
+					<h3>Есть вопрос?</h3>
+					<h4>Звоните - поможем!</h4>
+					<p><span>+7(499)</span>399-35-09</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="b b-2">
+		<div class="b-block-2 clearfix">
+			<a class="back clearfix" href="#">
+				<img class="left" src="i/back.png">
+				<h2>Изменить заказ</h2>
+			</a>
+			<div class="clearfix way">
+				<h3 class="one left">1. </h3>
+				<h3 class="grey left">Ваш заказ</h3>
+				<img class="left way-arrow" src="i/way.png">
+				<h2 class="two green left">2.</h2>
+				<h3 class="green left">Оформление заказа</h3>
+				<div class="delivery left clearfix">
+					<img class="left" src="i/delivery.png">
+					<p class="left">Бесплатная доставка при заказе от 2900 руб</p>
+				</div>
+			</div>
+			<div class="form-header clearfix">
+				<img class="left" src="i/contact-form.png">
+				<h2 class="left">Введите Ваши контактные данные:</h2>
+			</div>
+			<form class="reg-form" action="#" method="POST" id="contacts">
+				<label for="name">Введите Ваше имя:</label>
+				<input type="text" id="name" name="weight" placeholder="Иванов Иван"required/>
+				<label for="telephone">Введите Ваш телефон:</label>
+				<div class="clearfix">
+					<div class="left phone-img"></div>
+					<input class="left" type="text" id="phone-1" name="phone" placeholder="+7 (___) ___-__-__" required/>
+				</div>
+				<div class="clearfix">
+					<label for="email">Введите Ваш e-mail:</label>
+					<input class="left" type="text" id="email" name="e-mail" placeholder=""required/>
+					<h2 class="error left">Чего-то не хватает</h2>
+				</div>
+			</form>	
+			<div class="line"></div>
+			<div class="clearfix">	
+				<div class="b-form-radio-delivery left">
+					<div class="clearfix">
+						<img class="left" src="i/delivery-1.png">
+						<h2 class="left">Доставка</h2>
+					</div>
+					<div class="clearfix"><input class="left" id="decrease" type="radio" name="delivery" value="decrease" checked>
+					<label  class="left" for="decrease">Самовывоз</label><h3 class="left">(Проспект Вернардского, д5 )</h3></div>
+					<div class="clearfix"><input  class="left" id="increase" type="radio" name="delivery" value="increase">
+					<label class="left"  for="increase">Курьерская доставка до дома или офиса</label></div>
+				</div>
+				<div class="b-form-radio-delivery pay-radio left">
+				<div class="clearfix">
+						<img class="left" src="i/pay.png">
+						<h2 class="left">Оплата</h2>
+					</div>
+					<div class="clearfix"><input class="left" id="decrease" type="radio" name="pay" value="decrease" checked>
+					<label  class="left" for="decrease">Наличными курьеру</label></div>
+					<div class="clearfix"><input  class="left" id="increase" type="radio" name="pay" value="increase">
+					<label class="left"  for="increase">Банковской картой/Электронными деньгами</label></div>
+				</div>
+			</div>
+			<div class="adress">
+				<div class="clearfix">
+					<img class="left" src="i/adress.png">
+					<h2 class="left">Введите адрес</h2>
+					<input type="text" id="adress" name="adress" placeholder="Например, Проспект Мира, 101 с 1" required/>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="right issue clearfix">
+				<div class="left">
+					<h3>Стоимость доставки:</h3>
+					<h4>Сумма заказа:</h4>
+				</div>
+				<div class="right">
+					<h3>0 руб.</h3>
+					<h4> 2900 руб.</h4>
+				</div>
+				<a href="#" class="ajax b-orange-butt rounded sys">
+					оформить заказ
+					<img src="i/arrow-but.png">
+				</a>
+			</div>
+			<div class="callcenter">
+				<h2>Возник вопрос? </h2>
+				<h3> Звоните - с удовольствием поможем! </h3>
+				<h4>+7 495 12 345 67 </h4>
+				<a href="#">Заказать звонок</a>
+			</div>
+		</div>
+	</div>
+	<div class="b b-10">
+		<div class="b-block clearfix">
+			<div class="left">
+				<a href="#" class="logo logo1 left">
+					<h3>Клубы здорового питания в Москве</h3>
+					<img src="i/logo2.png">
+				</a>
+			</div>
+			<div class="right question">
+				<h3>Есть вопрос? Звоните - поможем!</h3>
+				<div class="clearfix">
+					<p class="right">+7 495 12 345 67</p>
+					<img class="right" src="i/tel-2.png">
+				</div>
+				<a class="fancy" href="#" data-block="#b-popup-callback">Заказать звонок</a>
+			</div>
+			<div class="right copyright">
+				<p>Copyright © 1993-2015. Компания Здоровье. Все права защищены.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
