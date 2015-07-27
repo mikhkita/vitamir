@@ -37,6 +37,47 @@
 
 }
 
+<<<<<<< HEAD
+=======
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/lato-black-webfont.eot');
+    src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/lato-black-webfont.woff') format('woff'),
+         url('../fonts/lato-black-webfont.ttf') format('truetype'),
+         url('../fonts/lato-black-webfont.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latoheavy';
+    src: url('../fonts/lato-heavy-webfont.eot');
+    src: url('../fonts/lato-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/lato-heavy-webfont.woff') format('woff'),
+         url('../fonts/lato-heavy-webfont.ttf') format('truetype'),
+         url('../fonts/lato-heavy-webfont.svg#latoheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+>>>>>>> 15c3104b63f85c545d4216ff1d6a50494d3060f7
 .b-orange-butt{
 	color: #FFF;
 	font-family: "ProximaNovaBold";
@@ -76,6 +117,17 @@ body{
 	font-family: 'latoregular';
 	overflow-x: hidden;
 }
+<<<<<<< HEAD
+=======
+.b-1{
+	background-image: none;
+	background-color: rgba(113, 48, 13, -0.5);
+}
+
+	.b-1 .header .logo1 img{
+		margin-top: 0px;
+	}
+>>>>>>> 15c3104b63f85c545d4216ff1d6a50494d3060f7
 
 .b-block-2{
 	position: relative;
@@ -85,6 +137,10 @@ body{
 
 .b-2{
 	padding-bottom: 140px;
+<<<<<<< HEAD
+=======
+	width: 100%
+>>>>>>> 15c3104b63f85c545d4216ff1d6a50494d3060f7
 }
 
 	.b-2 > .b-block .phone-img{
@@ -313,6 +369,10 @@ body{
 						width: 16px;
 						margin-left: 33px;
 						margin-right: 7px;
+<<<<<<< HEAD
+=======
+						margin-bottom: 18px;
+>>>>>>> 15c3104b63f85c545d4216ff1d6a50494d3060f7
 					}
 
 				.b-2 .pay-radio{
@@ -351,5 +411,103 @@ body{
 						margin-bottom: 10px;
 					}
 
+<<<<<<< HEAD
+=======
+					
+
+				.b-2 .issue{
+					width: 291px;
+					text-align: left;
+					margin-right: 46px;
+					padding-top: 31px;
+				}
+
+					.b-2 .issue a{
+						width: 140px;
+						margin-right: 90px;
+						text-transform: uppercase;
+						display: inline-block;
+						margin-top: 13px;
+						font-size: 12px;
+						padding: 11px 44px 11px 63px;
+					}
+
+					.b-2 .issue a img{
+						margin-left: 12px;
+					}
+
+					.b-2 .issue .left h3{
+						font-family: 'latobold';
+						font-size: 14px;
+						width: 147px;
+						margin-left: 6px;
+						color: #8d898b;
+					}
+
+					.b-2 .issue .left h4{
+						font-family: 'latobold';
+						font-size: 18px;
+						width: 147px;
+						margin-left: 6px;
+						color: #333333;
+					}
+
+					.b-2 .issue .right h3{
+						font-family: 'latobold';
+						font-size: 14px;
+						color: #8d898b;
+					}
+
+					.b-2 .issue .right h4{
+						font-family: 'latobold';
+						font-size: 18px;
+						color: #333333;
+						margin-right: 47px;
+					}
+
+				.b-2 .callcenter{
+					width: 470px;
+					margin: 0px auto;
+					text-align: center;
+					margin-top: 177px;
+				}
+
+					.b-2 .callcenter h2{
+						font-size: 23px;
+						font-family: 'latoregular';
+						color: #3b3f3e;
+						line-height: 18px;
+					}
+
+					.b-2 .callcenter h3{
+						font-size: 25px;
+						font-family: 'latobold';
+						color: #3b3f3e;
+						margin-bottom: 3px;
+					}
+
+					.b-2 .callcenter h4{
+						color: #2ab938;
+						font-size: 30px;
+						font-family: 'latoblack';
+					}
+
+					.b-2 .callcenter a{
+						font-family: 'latoheavy';
+						font-size: 15px;
+						color: #ed1f24;
+						text-decoration: underline;
+					}
+
+					.b-2 .callcenter a:hover{
+						text-decoration: none;
+					}
+
+
+	.b-10 .logo1 img{
+		margin-top: 0px;
+	}
+
+>>>>>>> 15c3104b63f85c545d4216ff1d6a50494d3060f7
 
 
