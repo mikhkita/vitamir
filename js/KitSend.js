@@ -111,6 +111,7 @@ $(document).ready(function(){
 			  	url: $(this).attr("action"),
 			  	data:  $this.serialize(),
 				success: function(msg){
+					if(msg=='1' || msg=='0') {
 						if( msg == "1" ){
 							$form = $($this.attr("data-block"));
 						}else{
@@ -125,23 +126,18 @@ $(document).ready(function(){
 						$.fancybox.open({
 							content : $form,
 							padding : 0
-						});	
+						});
+					} else {
+						// $.parseJSON(msg);
+						console.log(msg);
+					}	
 				}
 			});
   		}
   		return false;
   	});
-	$('#calc').validate();
-	$('#calc').find("input[type=text]").inputmask({
-                mask: '99[9]',
-                placeholder: ' ',
-                showMaskOnHover: false,
-                showMaskOnFocus: false
-            });
-	$('#age').rules( "add", {minlength: 2});
-	$('#weight').rules( "add", {minlength: 2});
-	$('#growth').rules( "add", {minlength: 2});
-	// $('#calc').find("input[type=text]").mask('99?9',{placeholder:" "});
+	
+	$('#calc').find("input[type=text]").mask('99?9',{placeholder:" "});
 	$("#calc").submit(function(){
   		if( $(this).valid() ){
   			if($("input[name=sex]:checked").val()=='male') {

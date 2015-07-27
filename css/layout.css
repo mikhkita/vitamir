@@ -1186,12 +1186,10 @@ margin-bottom: 6px;
 			.b-3 .b-menu{
 				width: 700px;
 				background-color: #FFF;
+				padding: 20px 23px 25px 35px;
 				box-sizing: border-box;
 				border-radius: 5px;
 			}
-				.b-3 .b-menu-wrap{
-					padding: 20px 27px 35px 30px;
-				}
 				.b-3 .b-menu .b-header{
 
 				}
@@ -1275,7 +1273,6 @@ margin-bottom: 6px;
   									display: inline-block;
 								}
 								.b-time ul.b-eat li>.right select{
-									cursor: pointer;
 								    background-color: #FFF;
 								    border: 2px solid rgba(84,56,67,.5);
 								    border-radius: 5px;
@@ -1292,33 +1289,6 @@ margin-bottom: 6px;
 								    padding: 0px 8px;
     								box-sizing: border-box;
 								}
-				.b-3 .b-green{
-					background-color: #dbff56;
-					padding: 25px 25px 25px 30px;
-				}
-					.b-green .left{
-
-					}
-						.b-green .left h4{
-							margin-top: 3px;
-							font-family: "latobold";
-							color: #333333;
-							font-size: 20px;
-							text-align: left;
-						}
-							.b-green .left h4 span{
-
-							}
-					.b-green .right{
-
-					}
-						.b-green .right .b-orange-butt{
-							display: inline-block;
-							font-size: 12px;
-							padding: 12px 0px 11px;
-							width: 248px;
-							text-transform: uppercase;
-						}
 			.b-3 h2{
 				color: #3B3F3E;
 				font-family: "elektra_text_probold";
