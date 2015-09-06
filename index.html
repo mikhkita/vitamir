@@ -343,7 +343,7 @@
 									</div>
 								</li>
 							</ul>
-							<div class="b-add-butt-cont clearfix"><a href='#' class="b-add-butt">Добавить на утро</a></div>
+							<div class="b-add-butt-cont clearfix"><a href='#' class="b-add-butt fancy" data-block="#b-popup-menu">Добавить на утро</a></div>
 						</div>
 						<div class="b-time b-time-day" id="day">
 							<div class="b-header clearfix">
@@ -404,7 +404,7 @@
 									</div>
 								</li>
 							</ul>
-							<div class="b-add-butt-cont clearfix"><a href='#' class="b-add-butt">Добавить на день</a></div>
+							<div class="b-add-butt-cont clearfix"><a href='#' class="b-add-butt fancy" data-block="#b-popup-menu">Добавить на день</a></div>
 						</div>
 						<div class="b-time b-time-evening" id="evening">
 							<div class="b-header clearfix">
@@ -465,7 +465,7 @@
 									</div>
 								</li>
 							</ul>
-							<div class="b-add-butt-cont clearfix"><a href='#' class="b-add-butt">Добавить на вечер</a></div>
+							<div class="b-add-butt-cont clearfix"><a href='#' class="b-add-butt fancy" data-block="#b-popup-menu">Добавить на вечер</a></div>
 						</div>
 					</div>
 					<div class="b-green-bottom b-time-all clearfix">
@@ -851,21 +851,24 @@
 			<div class="b-popup menu">
 				<h2>Полное меню</h2>
 				<h2 class="sub-title"><span>100%</span> здоровое питание делает вас энергичнее!</h2>
-				<div class="menu-cont">
+				<div class="menu-cont clearfix">
 					<div class="filter left">
-						<a href="#">Корзина (2120 руб.)</a>
 						<div class="filter-item">
 							<h5>Показывать:</h5>
-							<ul>
-								<li>
-									<input type="checkbox" id="f1328" name="arr7[]" value="1328">
-                                    <label class="clearfix" for="f1328">
-                                        <span class="checked"></span>
-                                        <span class="default"></span>   
-                                        <h4>На утро</h4>
-                                 	</label>
-                                </li>
-							</ul>
+							<div class="b-inputs radio">
+								<div class="clearfix">
+									<input id="daytime-1" type="radio" name="daytime" value="1">
+						    		<label for="daytime-1">На утро</label>
+						    	</div>
+						    	<div class="clearfix">
+							    	<input id="daytime-2" type="radio" name="daytime" value="2">
+							    	<label for="daytime-2">На день</label>
+						    	</div>
+						    	<div class="clearfix">
+							    	<input id="daytime-3" type="radio" name="daytime" value="3">
+							    	<label for="daytime-3">На вечер</label>
+						    	</div>
+							</div>
 						</div>
 					</div>
 					<div class="right">

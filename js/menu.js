@@ -4,6 +4,7 @@ $(document).ready(function(){
 
     calculateMenu();
 
+    $(".b-add-butt").eq(0).click();
 });
 
 function calculateMenu(){
