@@ -275,6 +275,11 @@ textarea{
 	font-weight: 500;
 	border-radius: 5px;
 }
+.b-popup.menu{
+	background-image: url("../i/popup-pattern.jpg");
+	width: 830px;
+	padding: 30px;
+}
 	.b-popup h2{
 	    color: #3B3F3E;
 	    font-family: "latoblack";
@@ -283,6 +288,13 @@ textarea{
 		line-height: 24px;
 		text-align: center;
 	}
+	.b-popup h2.sub-title{
+	    font-family: "latobold";
+	    padding-top: 0px;
+	}
+		.b-popup h2 span{
+		    color: #6fc617;
+		}
 	.b-popup h3{
 		color: #7C7C7C;
 		font-family: "latoregular";
@@ -345,6 +357,28 @@ textarea{
 			color: #4A4A4A;
 			font-family: "latoblack";
 		}
+	.b-popup.menu .menu-cont{
+
+	}
+		.b-popup.menu .menu-cont .filter{
+
+		}
+			.b-popup.menu .menu-cont .filter a{
+
+			}
+			.b-popup.menu .menu-cont .filter .filter-item{
+
+			}
+				.b-popup.menu .menu-cont .filter .filter-item h5{
+
+				}
+				.b-popup.menu .menu-cont .filter .filter-item ul{
+
+				}
+					.b-popup.menu .menu-cont .filter .filter-item ul li{
+
+					}
+
 	.pass{
 
 	}
